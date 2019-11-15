@@ -20,6 +20,7 @@ window.myCV = {
         "pwa": "pwa",
         "cordova": "cordova"
     },
+    "download": "Télécharger au format pdf",
     "title": "Développeur web front-end (Javascript)",
     "title_en": "Web software engineer",
     "title2_en": "Front-end / JavaScript - Freelance",
@@ -132,7 +133,7 @@ window.myCV = {
             "duration_en": "1 year",
             "nbDev": 4,
             "practices": [
-                "Mise en place d'une nouvelle application web, de son architecture et des outils",
+                "Mise en place d'une nouvelle application web (architecture et outils)",
                 "Travail en collaboration avec l'équipe de design et l'équipe back-end",
                 "Gestion de la migration de l'existant vers la nouvelle architecture",
                 "Mise en place d'une plateforme d'intégration continue (CI/CD)",
