@@ -33,8 +33,8 @@ window.myCV = {
     "trainingLabel_en": "Training",
     "persoLabel": "Projets personnels",
     "persoLabel_en": "Personal projects",
-    "aboutMe": "A propos de moi",
-    "aboutMe_en": "About me",
+    "aboutMe": "A propos",
+    "aboutMe_en": "About",
     "contactLabel": "Contact",
 
     "age": "33 ans",
