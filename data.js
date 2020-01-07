@@ -1,6 +1,7 @@
 window.myCV = {
     "orderedKeywords": ["en", "responsive", "es6", "websocket", "firebase", "opensource",
-        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova"],
+        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova"
+    ],
     "keywords": {
         "en": "international",
         "responsive": "responsive design",
@@ -21,9 +22,9 @@ window.myCV = {
         "cordova": "cordova"
     },
     "download": "Télécharger au format pdf",
+    "download_en": "Download to pdf format",
     "title": "Développeur web front-end (Javascript)",
-    "title_en": "Web software engineer",
-    "title2_en": "Front-end / JavaScript - Freelance",
+    "title_en": "Web software engineer (Javascript)",
 
     "technicalSkills": "Compétences techniques",
     "technicalSkills_en": "Technical skills",
@@ -43,11 +44,12 @@ window.myCV = {
     "mail": "......@gmail.com",
 
 
-    "aboutMe1": "Développeur depuis plus de 10 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
+    //TODO in english
+    "aboutMe1": "Développeur depuis plus de 11 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
     "aboutMe2": "Passionné et rigoureux, j'apprecie le travail bien fait et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
     "aboutMe3": "Nantes et/ou en télétravail.",
 
-    "contacts" : ["https://alban44.github.io/", "https://fr.linkedin.com/in/alban-alnot-freelance"],
+    "contacts": ["https://alban44.github.io/", "https://fr.linkedin.com/in/alban-alnot-freelance"],
 
     "trainings": [{
         "date": "2003 - 2008",
@@ -73,29 +75,25 @@ window.myCV = {
         "duration": "x mois",
         "duration_en": "x months",
         "capacity": "Développeur web front-end (js)",
-        "capacity_en": "Web front-end developer - freelance",
-        "type": "",
-        "missions": [
-            {
-                "companyKey": "capgemini",
-                "capacity": "Evolution d'une progressive webapp B2B",
-                "capacity_en": "??",
-                "duration": "en cours",
-                "duration_en": "in progress",
-                "nbDev": 0,
-                "practices":
-                    [
-                        "Corrections et évolutions de la progressive webapp (front et back-end)",
-                        "Conception et développement de nouveaux composants front"
-                    ],
-                "practices_en":
-                    [
-                        "??",
-                        "??"
-                    ],
-                "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
-                "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "en", "docker"],
-            },
+        "capacity_en": "Web front-end developer - freelance (js)",
+        "missions": [{
+            "companyKey": "capgemini",
+            "capacity": "Evolution d'une progressive webapp B2B",
+            "capacity_en": "??",
+            "duration": "en cours",
+            "duration_en": "in progress",
+            "nbDev": 0,
+            "practices": [
+                "Corrections et évolutions de la progressive webapp (front et back-end)",
+                "Conception et développement de nouveaux composants front"
+            ],
+            "practices_en": [
+                "??",
+                "??"
+            ],
+            "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
+            "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "en", "docker"],
+        },
             {
                 "companyKey": "enedis",
                 "capacity": "Création d'une nouvelle application web",
@@ -107,13 +105,18 @@ window.myCV = {
                     "Mise en place de l'application web et de son architecture",
                     "Mise en place et utilisation d'ArcGis pour la visualisation cartographique",
                     "Affinage du besoin",
-                    "Force de proposition UI/UX"],
+                    "Force de proposition UI/UX"
+                ],
                 "practices_en": [
                     "??",
-                    "??"],
+                    "??",
+                    "??",
+                    "??"
+                ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript"],
                 "keywords": ["spa", "responsive", "es6", "materialdesign", "docker"],
-            }],
+            }
+        ],
 
     }, {
         "companyKey": "livingpackets",
@@ -124,7 +127,6 @@ window.myCV = {
         "duration_en": "1 year",
         "capacity": "Développeur et responsable front-end (js) [télétravail]",
         "capacity_en": "Web software engineer - head of front-end team (remote)",
-        "type": "en interne",
         "missions": [{
             "companyKey": "",
             "capacity": "Création d'une nouvelle application web et d'un back-office",
@@ -155,11 +157,13 @@ window.myCV = {
         "companyKey": "conserto",
         "color": "pink",
         "startDate": "avril 2014",
+        "startDate_en": "april 2014",
         "endDate": "déc. 2017",
+        "endDate_en": "dec. 2017",
         "duration": "3 ans 8 mois",
         "duration_en": "3 years 8 months",
         "capacity": "Développeur web front-end (js)",
-        "type": "en prestation",
+        "capacity_en": "Web software engineer (Js)",
         "missions": [{
             "companyKey": "arpege",
             "capacity": "Création d'un composant de visualisation et de modification de données cartographiques",
@@ -170,29 +174,40 @@ window.myCV = {
             "keywords": ["spa", "es6", "vanillajs", "leaflet", "geoserver"],
             "capacity_en": "Creation of a data visualization/modification cartography component",
             "duration_en": "4 months",
-            "practices_en": ["Getting started with cartographic tools (leaflet, geoserver/geotools, shapefile, Web Map Service)", "Conception, development and tests of the component", "Integration of the component into the web application and connection of the API"]
+            "practices_en": ["Getting started with cartographic tools (leaflet, geoserver/geotools, shapefile, Web Map Service)", "Conception, development and tests of the component", "Integration of the component into the web application, connection of the API"]
         }, {
             "companyKey": "akeneo",
             "capacity": "Préparation à la migration d'une application web legacy vers une Single Page Application",
+            "capacity_en": "Preparation of the migration of a legacy web application to a Single Page Application",
             "duration": "3 mois",
-            "nbDev": 15,
-            "practices": ["Refactoring de l'application open-source", "Création d'API REST et de composants front-end via BackBoneJS"],
+            "duration_en": "3 months",
+            "practices": [
+                "Refactoring de l'application open-source",
+                "Création d'API REST et de composants front-end via BackBoneJS"
+            ],
+            "practices_en": [
+                "Refactoring of the open-source application",
+                "Creation of REST API and front-end components with BackBoneJS"
+            ],
             "skillsKeys": ["js", "css3", "webpack", "git", "webstorm", "linux", "selenium", "php5", "spa", "en"],
             "keywords": ["en", "spa", "opensource"],
-            "capacity_en": "Preparation of the migration of a legacy web application to a Single Page Application",
-            "duration_en": "3 months",
-            "practices_en": ["Refactoring of the open-source application", "Creation of REST API and front-end components with BackBoneJS", "Non-regression and iso-functional ensured by a big set of automated tests (CI)"]
         }, {
             "companyKey": "emotic",
             "capacity": "Conception et développement d’une application (tablette/web) d’aide à la vente",
-            "duration": "2 mois",
-            "nbDev": 4,
-            "practices": ["Mise en place de nouvelles fonctionnalités", "Conception et développement de nouveaux composants/services"],
-            "skillsKeys": ["js", "angular2", "html5", "css3", "sass", "webpack", "git", "webstorm", "responsive", "windows", "ionic", "typescript", "spa", "es6"],
-            "keywords": ["spa", "responsive", "es6"],
             "capacity_en": "Design and development of a sales assistance application (tablet/web)",
+            "duration": "2 mois",
             "duration_en": "2 months",
-            "practices_en": ["Creation of new features", "Design and development of new components/services"]
+            "nbDev": 4,
+            "practices": [
+                "Mise en place de nouvelles fonctionnalités",
+                "Conception et développement de nouveaux composants/services"
+            ],
+            "practices_en": [
+                "Creation of new features",
+                "Design and development of new components/services"
+            ],
+            "skillsKeys": ["js", "angular2", "html5", "css3", "sass", "webpack", "git", "webstorm", "responsive", "windows", "ionic", "typescript", "spa", "es6"],
+            "keywords": ["spa", "responsive", "es6"]
         }, {
             "companyKey": "sr",
             "capacity": "Création d'une application back-office",
@@ -205,7 +220,7 @@ window.myCV = {
                 "Mise en place des tests unitaires et d'integration (Karma, Jasmine)"
             ],
             "skillsKeys": ["js", "angularjs", "nodejs", "html5", "css3", "less", "grunt", "git", "webstorm", "linux", "spa", "es6"],
-            "keywords": [],//["spa", "es6"],
+            "keywords": [], //["spa", "es6"],
             "capacity_en": "Creation of a web application",
             "duration_en": "3 months",
             "practices_en": ["Proof of concept of the application", "Creation of the application foundation (Grunt, Browserify, Less…)", "Development with AngularJS, HTML5, CSS3, Bootstrap", "Creation of unit and integration tests (Karma, Jasmine)"]
@@ -217,7 +232,7 @@ window.myCV = {
             "practices": ["Conception et développement de diverses fonctionnalités et composants", "Développement de l'application en responsive design (mobile/tablette/pc)", "Packaging de l'application pour iOS, Android et PC"],
             "skillsKeys": ["js", "nodejs", "html5", "css3", "less", "grunt", "git", "webstorm", "responsive", "linux", "cordova", "jira", "dojo", "spa", "es6"],
             "keywords": ["spa", "responsive", "es6", "cordova"],
-            "capacity_en": "Creation of an hybrid mobile application for VOD content",
+            "capacity_en": "Creation of an hybrid app for VOD content",
             "duration_en": "6 months",
             "practices_en": ["Design and development of many features and components", "Responsive development of the application (mobile/tablet/pc)", "Packaging of the application for iOS, Android and PC"]
         }, {
@@ -226,52 +241,65 @@ window.myCV = {
             "duration": "2 ans",
             "nbDev": 5,
             "practices": [
-                // "Prototypage et maquettage d'outils et d'applications",
                 "Mise en place de la structure et de l'outillage des applications",
                 "Conception et développement de plusieurs fonctionnalités",
                 "Création de multiples composants transverses",
                 "Développements, tests et débuggage sur box TV (applications embarquées)",
                 "Co-développement à distance avec une équipe internationale",
-                "Implementation de tests unitaires et fonctionnels (karma)"],
+                "Implementation de tests unitaires et fonctionnels (karma)"
+            ],
+            "practices_en": [
+                "Creation of the application foundation and tooling",
+                "Design and development of many features",
+                "Creation of multiple transversal components",
+                "Developments, tests and debugging on TV box (on-board applications)",
+                "Remote international development team", "Writing unit and functional tests (karma)"
+            ],
             "skillsKeys": ["js", "nodejs", "html5", "css3", "less", "grunt", "git", "svn", "webstorm", "linux", "dojo", "canvas", "spa", "en"],
             "keywords": ["en", "spa"],
             "capacity_en": "Creation and maintenance of a UI for TV box",
             "duration_en": "2 years",
-            "practices_en": ["Proof of concept and tooling of some applications", "Creation of the application foundation", "Design and development of many features", "Creation of multiple transversal components", "Migration of a DOM menu into a canvas (with 3D animations)", "Developments, tests and debugging on STB (on-board applications)", "Remote international development team", "Writing unit and functional tests (karma)", "Autonomous discovery of the Wiztivi's SDK (wrapper of Dojo)"]
+
         }],
-        "startDate_en": "april 2014",
-        "endDate_en": "dec. 2017",
-        "capacity_en": "Web software engineer (Js)",
-        "type_en": "as contractor"
     }, {
         "companyKey": "eurofins",
         "color": "orange",
         "startDate": "déc. 2011",
+        "startDate_en": "dec. 2011",
         "endDate": "juin 2013",
+        "endDate_en": "june 2013",
         "duration": "2 ans",
         "duration_en": "2 years",
         "capacity": "Développeur web full-stack (C#)",
-        "type": "en interne",
+        "capacity_en": "Web software engineer (C#)",
         "missions": [{
             "companyKey": "",
             "capacity": "Maintenance et évolution du site internet et de l'ESB",
+            "capacity_en": "??",
             "duration": "1 an et demi",
+            "duration_en": "1 year and 6 months",
             "nbDev": 6,
-            "practices": ["Méthodologie SCRUM avec équipe scindée à l'international",
+            "practices": [
+                "Méthodologie SCRUM avec équipe scindée à l'international",
                 "Maquettage et prototypage d'applications Windows",
                 "Maintenance et évolution du site web",
                 "Conception et création de WebService",
-
-                "Mise en place d'une plate-forme automatisée de tests de performance", "Création et maintenance de tests automatisés du site web", "Implementation de tests unitaires et d'intégration"],
+                "Mise en place d'une plate-forme automatisée de tests de performance",
+                "Création et maintenance de tests automatisés du site web",
+                "Implementation de tests unitaires et d'intégration"
+            ],
+            "practices_en": [
+                "SCRUM methodology with worldwide team",
+                "Proof of concept of Windows applications",
+                "Maintenance and new features of the web site",
+                "Design and creation of WebServices",
+                "Implementation of an automatic platform of benchmark",
+                "Development and maintenance of the web site automated tests",
+                "Writing units and integration tests"
+            ],
             "skillsKeys": ["js", "cs", "vs", "jquery", "windows", "selenium", "msqlserver", "powershell", "asp-net", "en"],
-            "keywords": [],
-            "capacity_en": "Integration of the multi-skills software international team",
-            "duration_en": "1 year and 6 months",
-            "practices_en": ["SCRUM methodology", "Proof of concept of Windows applications", "Maintenance and new features of the web site", "Part of an international and worldwide team", "Design and creation of WebServices", "Technical support level 2", "Implementation of an automatic platform of benchmark", "Development and maintenance of the web site automated tests", "Writing units and integration tests"]
+            "keywords": []
         }],
-        "startDate_en": "dec. 2011",
-        "endDate_en": "june 2013",
-        "capacity_en": "Web software engineer (C#)"
     }, {
         "companyKey": "capgemini",
         "color": "blue",
@@ -309,7 +337,8 @@ window.myCV = {
             "duration": "2 ans et demi",
             "nbDev": 2,
             "practices": ["Conception, chiffrage et développement d'évolutions majeures, correction d'anomalies (client lourd)", "Maintenance d'un outil de test automatisé de l'application", "Conception et création de WebService",
-                "Accompagnement de nouveaux développeurs lors de leur montée en compétences"],
+                "Accompagnement de nouveaux développeurs lors de leur montée en compétences"
+            ],
             "skillsKeys": ["cs", "vs", "windows", "msqlserver", "clearcase"],
             "keywords": [],
             "capacity_en": "Maintenance of the train office sale application",
@@ -322,68 +351,84 @@ window.myCV = {
     "personalStuff": [{
         "title": "Jeux",
         // "url" : "https://my-html5-games.herokuapp.com/all/",
-        "lines": [
-            {
-                "date": "2011",
-                "link": {"url": "", "label": "Virus Killer"},
-                "label": "multi-joueur temps réel, inspiré de Docteur Mario",
-                "label_en": "Online multiplayer game (real time), inspired by 'Doctor Mario / Tetris'",
-                "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
+        "lines": [{
+            "date": "2011",
+            "link": {
+                "url": "",
+                "label": "Virus Killer"
             },
-            {
-                "date": "2014",
-                "link": {"url": "https://my-html5-games.herokuapp.com", "label": "Factory fun"},
-                "label": "multi-joueur temps réel, inspiré du jeu de plateau 'Factory fun'",
-                "label_en": "Online multiplayer game (real time), inspired by the board game 'Factory fun'",
-                "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
-            },
+            "label": "multi-joueur temps réel, inspiré de 'Docteur Mario'",
+            "label_en": "real time multiplayer, inspired by 'Doctor Mario'",
+            "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
+        },
             {
                 "date": "2013",
-                "link": {"url": "https://my-html5-games.herokuapp.com/Decalco", "label": "Decalco"},
+                "link": {
+                    "url": "https://my-html5-games.herokuapp.com/Decalco",
+                    "label": "Decalco"
+                },
                 "label": "Jeu de calcul pour enfants",
                 "label_en": "Solo calculation game for children",
                 "skills": ["js", "html5", "css3", "git"]
             }, {
                 "date": "2013",
-                "link": {"url": "https://my-html5-games.herokuapp.com/CalcKiller", "label": "Calc'Killer"},
+                "link": {
+                    "url": "https://my-html5-games.herokuapp.com/CalcKiller",
+                    "label": "Calc'Killer"
+                },
                 "label": "Jeu de calcul pour adultes (multi-niveaux)",
                 "label_en": "Solo calculation game (multi level)",
                 "skills": ["js", "html5", "css3", "git"]
-            }],
+            },
+            {
+                "date": "2014",
+                "link": {
+                    "url": "https://my-html5-games.herokuapp.com",
+                    "label": "Factory fun"
+                },
+                "label": "multi-joueur temps réel, inspiré du jeu de plateau 'Factory fun'",
+                "label_en": "Online multiplayer game (real time), inspired by the board game 'Factory fun'",
+                "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
+            },
+        ],
         // "skillsKeys": ["js", "nodejs", "html5", "css3", "grunt", "git", "webstorm", "vanillajs", "jquery", "mongodb", "socket.io", "websocket", "canvas"],
         "keywords": ["vanillajs", "canvas", "websocket"],
-        "title_en": "Multiplayer games"
+        "title_en": "Games"
     }, {
         "title": "Sites web",
-        "lines": [{
-            "date": "2017",
-            "link": {
-                "url": "https://my-html5-games.herokuapp.com/recherche-code-postal",
-                "label": "Recherche de code postal",
-                "url_en": "http://recherche-code-postal.fr/",
-                "label_en": "Search french postal code"
+        "lines": [
+            {
+                "date": "2016",
+                "link": {
+                    "url": "",
+                    "label": "Math Trade"
+                },
+                "label": "Site web d’échange circulaire de jeux de plateau (front-end ReactJS/Redux et firebase en back-end)",
+                "label_en": "Creation of a boardgame trade web site (ReactJS/Redux + firebase as back-end)",
+                "skills": ["react", "js", "html5", "css3", "git"]
+            }, {
+                "date": "2017",
+                "link": {
+                    "url": "https://my-html5-games.herokuapp.com/recherche-code-postal",
+                    "label": "Recherche de code postal",
+                    "url_en": "https://my-html5-games.herokuapp.com/recherche-code-postal",
+                    "label_en": "Search french postal code"
+                },
+                "skills": ["react", "js", "html5", "css3", "git"],
+                // "label": "utilisation de ReactJS/Redux",
+                "label_en": "Using ReactJS/Redux/React-router"
             },
-            "skills": ["react", "js", "html5", "css3", "git"],
-            // "label": "utilisation de ReactJS/Redux",
-            "label_en": "Using ReactJS/Redux/React-router"
-        }, {
-            "date": "2016",
-            "link": {"url": "", "label": "Math Trade"},
-            "label": "Site web d’échange circulaire de jeux de plateau (front-end ReactJS/Redux et firebase en back-end)",
-            "label_en": "Creation of a boardgame trade web site “Math Trade”, using ReactJS/Redux as front-end and firebase as back-end",
-            "skills": ["react", "js", "html5", "css3", "git"]
-        }, {
-            "date": "2019",
-            "link": {
-                "url": "https://alban44.github.io",
-                "label": "Mon CV",
-                "url_en": "https://my-html5-games.herokuapp.com/myCV/?en",
-                "label_en": "My resume online",
-            }
-            ,
-            "skills": ["vuejs", "js", "html5", "css3", "git"],
-            "label_en": "Using AngularJs (french/english)"
-        }],
+            {
+                "date": "2019",
+                "link": {
+                    "url": "https://alban44.github.io",
+                    "label": "Mon CV",
+                    "url_en": "",
+                    "label_en": "My resume online",
+                },
+                "skills": ["vuejs", "js", "html5", "css3", "git"],
+                "label_en": "Using AngularJs (french/english)"
+            }],
         // "skillsKeys": ["js", "react", "angularjs", "html5", "css3", "webpack", "webstorm", "materialdesign", "firebase", "vanillajs", "spa", "redux"],
         "keywords": ["spa", "vanillajs", "redux", "firebase", "materialdesign"],
         "title_en": "Web sites"
@@ -418,23 +463,25 @@ window.myCV = {
         "label": "Loisirs",
         "content": "jeux de plateau, voyages, jardinage",
         "label_en": "Hobbies : ",
-        "content_en": "movies, board games, juggling, travelling"
+        "content_en": "board games, travelling, gardening"
     }, {
         "label": "Codingame",
         "content": "coder c'est fun! (profil: BanBan)",
-        "content_en": "because coding is funny!",
+        "content_en": "coding is funny! (profil: BanBan)",
         "link": {
             "url": "https://www.codingame.com/profile/69f8068773413e1814568fe7c8c1cb76788551",
             "label": "Mon profil ici",
             "label_en": "My profile here"
         },
 
-    }/*, {
-        "label": "Divers : ",
-        "label_en": "Miscellaneous : ",
-        "content": "titulaire du permis B",
-        "content_en": "driving licence"
-    }*/],
+    }
+        /*, {
+                "label": "Divers : ",
+                "label_en": "Miscellaneous : ",
+                "content": "titulaire du permis B",
+                "content_en": "driving licence"
+            }*/
+    ],
     "links": {
         "sass": {
             "name": "Sass",
@@ -490,7 +537,11 @@ window.myCV = {
             "description": "Node.js est une plateforme logicielle libre et événementielle en JavaScript orientée vers les applications réseau qui doivent pouvoir monter en charge. ",
             "description_en": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications."
         },
-        "grunt": {"name": "Grunt", "url": "http://gruntjs.com/", "description": "The Javascript Task Runner"},
+        "grunt": {
+            "name": "Grunt",
+            "url": "http://gruntjs.com/",
+            "description": "The Javascript Task Runner"
+        },
         "svn": {
             "name": "SVN",
             "url": "https://subversion.apache.org",
@@ -615,7 +666,11 @@ window.myCV = {
             "url": "https://www.airliquide.com/fr",
             "description": "Groupe industriel français d'envergure internationale, spécialiste des gaz industriels, c'est-à-dire des gaz pour l'industrie, la santé, l'environnement et la recherche."
         },
-        "freelance": {"name": "Freelance", "url": "", "description": ""},
+        "freelance": {
+            "name": "Freelance",
+            "url": "",
+            "description": ""
+        },
         "conserto": {
             "name": "Conserto",
             "url": "http://www.conserto.pro/",
@@ -660,20 +715,29 @@ window.myCV = {
             "description": "L'ANR finance la recherche sur projets sur un mode de sélection compétitive.",
             "description_en": "French National Research Agency"
         },
-        "linux": {"name": "Linux", "url": "https://www.kernel.org/", "description": ""},
-        "windows": {"name": "Windows", "url": "http://www.microsoft.com/en-us/windows", "description": ""}
+        "linux": {
+            "name": "Linux",
+            "url": "https://www.kernel.org/",
+            "description": ""
+        },
+        "windows": {
+            "name": "Windows",
+            "url": "http://www.microsoft.com/en-us/windows",
+            "description": ""
+        }
     },
-    "skills": [{"name": "Langages", "type": "header"}, {
+    "skills": [{
+        "name": "Langages",
+        "type": "header"
+    }, {
         "name": "js",
         "mark": "85",
-        "flag": "",
-        "classes": "mission0 mission1 mission2 mission3 mission4 mission5 mission6 mission7 mission8 mission9 mission10 mission12 mission13 mission14 mission15"
+        "flag": ""
     }, {
         "name": "cs",
         "categorie": "l",
         "mark": "50",
-        "flag": "",
-        "classes": "mission8 mission9 mission10 mission11 mission15"
+        "flag": ""
     }, {
         "name": "typescript",
         "categorie": "l",
@@ -682,95 +746,119 @@ window.myCV = {
         "name": "css3",
         "categorie": "l",
         "mark": "85",
-        "flag": "",
-        "classes": "mission0 mission1 mission2 mission3 mission4 mission5 mission6 mission7 mission9 mission12 mission13 mission14 mission15"
+        "flag": ""
     }, {
         "name": "html5",
         "categorie": "l",
         "mark": "85",
-        "flag": "",
-        "classes": "mission0 mission1 mission2 mission4 mission5 mission6 mission7 mission12 mission13 mission14 mission15"
+        "flag": ""
     }, {
         "name": "less",
         "categorie": "l",
         "mark": "70",
-        "flag": "",
-        "classes": "mission5 mission6 mission7 mission15"
+        "flag": ""
     }, {
         "name": "sass",
         "categorie": "l",
         "mark": "60",
-        "flag": "",
-        "classes": "mission1 mission4"
-    }, {"name": "powershell", "categorie": "l", "mark": "50", "flag": "", "classes": "mission8"}, {
+        "flag": ""
+    }, {
+        "name": "powershell",
+        "categorie": "l",
+        "mark": "50",
+        "flag": ""
+    }, {
         "name": "asp-net",
         "categorie": "l",
         "mark": "50",
-        "flag": "",
-        "classes": "mission8 mission9 mission10"
-    }, {"name": "Outils", "type": "header"}, {
+        "flag": ""
+    }, {
+        "name": "Outils",
+        "type": "header"
+    }, {
         "name": "webpack",
         "mark": "45",
-        "flag": "",
-        "classes": "mission3 mission4 mission14 mission15"
-    }, {"name": "grunt", "mark": "70", "flag": "", "classes": "mission5 mission6 mission7 mission12"}, {
+        "flag": ""
+    }, {
+        "name": "grunt",
+        "mark": "70",
+        "flag": ""
+    }, {
         "name": "svn",
         "mark": "50",
-        "flag": "",
-        "classes": "mission7 mission10"
+        "flag": ""
     }, {
         "name": "git",
         "mark": "70",
-        "flag": "",
-        "classes": "mission0 mission1 mission2 mission3 mission4 mission5 mission6 mission7 mission12"
-    }, {"name": "clearcase", "mark": "40", "flag": "", "classes": "mission9 mission11"}, {
+        "flag": ""
+    }, {
+        "name": "clearcase",
+        "mark": "40",
+        "flag": ""
+    }, {
         "name": "msqlserver",
         "mark": "50",
-        "flag": "",
-        "classes": "mission8 mission10 mission11"
-    }, {"name": "selenium", "mark": "30", "flag": "", "classes": "mission3 mission8"}, {
+        "flag": ""
+    }, {
+        "name": "selenium",
+        "mark": "30",
+        "flag": ""
+    }, {
         "name": "Framework",
         "type": "header"
     }, {
         "name": "nodejs",
         "mark": "70",
-        "flag": "",
-        "classes": "mission5 mission6 mission7 mission12 mission15"
-    }, {"name": "angularjs", "mark": "60", "flag": "", "classes": "mission5 mission14 mission15"}, {
+        "flag": ""
+    }, {
+        "name": "angularjs",
+        "mark": "60",
+        "flag": ""
+    }, {
         "name": "angular2",
         "mark": "85",
-        "flag": "",
-        "classes": "mission0 mission1 mission2 mission4"
-    }, {"name": "react", "mark": "70", "flag": "", "classes": "mission0 mission14 mission15"}, {
+        "flag": ""
+    }, {
+        "name": "react",
+        "mark": "70",
+        "flag": ""
+    }, {
         "name": "vuejs",
         "mark": "55",
-        "flag": "",
-        "classes": "mission0 mission15"
-    }, {"name": "dojo", "mark": "60", "flag": "", "classes": "mission6 mission7"}, {
+        "flag": ""
+    }, {
+        "name": "dojo",
+        "mark": "60",
+        "flag": ""
+    }, {
         "name": "jquery",
         "mark": "90",
-        "flag": "",
-        "classes": "mission8 mission9 mission12 mission13"
-    }, {"name": "bootstrap", "mark": "70", "flag": "", "classes": "mission15"}, {
+        "flag": ""
+    }, {
+        "name": "bootstrap",
+        "mark": "70",
+        "flag": ""
+    }, {
         "name": "IDE",
         "type": "header"
     }, {
         "name": "webstorm",
         "mark": "80",
-        "flag": "",
-        "classes": "mission1 mission2 mission3 mission4 mission5 mission6 mission7 mission12 mission13 mission14 mission15"
-    }, {"name": "vs", "mark": "50", "flag": "", "classes": "mission8 mission9 mission10 mission11"}, {
+        "flag": ""
+    }, {
+        "name": "vs",
+        "mark": "50",
+        "flag": ""
+    }, {
         "name": "OS",
         "type": "header"
     }, {
         "name": "windows",
-        "mark": "70",
-        //"classes": "mission0 mission2 mission4 mission8 mission9 mission10 mission11"
+        "mark": "70"
     }, {
         "name": "linux",
         "mark": "80",
-        "flag": "",
-        "classes": "mission0 mission1 mission3 mission5 mission6 mission7"
+        "flag": ""
     }],
     "abbr": [{
         "%STB%": "Set-Top Box%Le terme anglais Set-top box (STB) pourrait se traduire en français par boîtier décodeur TV",
