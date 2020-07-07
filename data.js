@@ -1,5 +1,5 @@
 window.myCV = {
-    "orderedKeywords": ["en", "responsive", "es6", "websocket", "firebase", "opensource",
+    "orderedKeywords": ["en", "responsive", "es6", "websocket", "firebase", "firestore", "opensource",
         "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova"
     ],
     "keywords": {
@@ -10,6 +10,7 @@ window.myCV = {
         "vanillajs": "vanillaJs",
         "websocket": "websocket",
         "firebase": "firebase",
+        "firestore": "firestore",
         "redux": "redux",
         "canvas": "canvas",
         "materialdesign": "material design",
@@ -38,8 +39,8 @@ window.myCV = {
     "aboutMe_en": "About",
     "contactLabel": "Contact",
 
-    "age": "33 ans",
-    "age_en": "33 years old",
+    "age": "autocalculated",
+    "age_en": "autocalculated",
     "name": "Alban Alnot - Freelance",
     "mail": "......@gmail.com",
 
@@ -76,12 +77,32 @@ window.myCV = {
         "duration_en": "x months",
         "capacity": "Développeur web front-end (js)",
         "capacity_en": "Web front-end developer - freelance (js)",
-        "missions": [{
+        "missions": [
+            {
+                "companyKey": "syd",
+                "capacity": "Création d'une Progressive Web Application",
+                "capacity_en": "??",
+                "duration": "5 mois",
+                "duration_en": "5 months",
+                "nbDev": 0,
+                "practices": [
+                    "Mise en place de la PWA et de son architecture",
+                    "Conception et développement de nouvelles fonctionnalités",
+                    "Rôle de tech-lead avec une équipe composée de 4 développeurs"
+                ],
+                "practices_en": [
+                    "??",
+                    "??"
+                ],
+                "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
+                "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "firebase", "firestore"],
+            },
+            {
             "companyKey": "capgemini",
-            "capacity": "Evolution d'une progressive webapp B2B",
+            "capacity": "Evolution d'une Progressive Web Application",
             "capacity_en": "??",
-            "duration": "en cours",
-            "duration_en": "in progress",
+            "duration": "5 mois",
+            "duration_en": "5 months",
             "nbDev": 0,
             "practices": [
                 "Corrections et évolutions de la progressive webapp (front et back-end)",
@@ -650,6 +671,12 @@ window.myCV = {
             "description": "Capgemini est l’un des leaders mondiaux du conseil, des services informatiques et de l’infogérance.",
             "url_en": "https://www.capgemini.com/",
             "description_en": "Cap Gemini S.A. is a French multinational management consulting corporation headquartered in Paris, France."
+        },
+        "syd": {
+            "name": "Groupe Syd",
+            "url": "https://syd.fr/",
+            "description": "ESN implantée à Nantes, Paris, Brest, Niort, Bordeau, Toulouse et Quebec",
+            "url_en": "https://syd.fr/",
         },
         "livingpackets": {
             "name": "Livingpackets",
