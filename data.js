@@ -46,7 +46,7 @@ window.myCV = {
 
 
     //TODO in english
-    "aboutMe1": "Développeur depuis plus de 11 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
+    "aboutMe1": "Développeur depuis plus de 12 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
     "aboutMe2": "Passionné et rigoureux, j'apprecie le travail bien fait et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
     "aboutMe3": "Nantes et/ou en télétravail.",
 
@@ -75,7 +75,7 @@ window.myCV = {
         "endDate_en": "today",
         "duration": "x mois",
         "duration_en": "x months",
-        "capacity": "Développeur web front-end (js)",
+        "capacity": "Développeur web front-end / Tech-lead (js)",
         "capacity_en": "Web front-end developer - freelance (js)",
         "missions": [
             {
@@ -758,27 +758,27 @@ window.myCV = {
         "type": "header"
     }, {
         "name": "js",
-        "mark": "85",
-        "flag": ""
+        "mark": "93",
+        "xp": "7 ans" // TODO in english...
     }, {
         "name": "cs",
         "categorie": "l",
         "mark": "50",
-        "flag": ""
     }, {
         "name": "typescript",
         "categorie": "l",
-        "mark": "80"
+        "mark": "85",
+        "xp": "3 ans"
     }, {
         "name": "css3",
         "categorie": "l",
         "mark": "85",
-        "flag": ""
+        "xp": "7 ans"
     }, {
         "name": "html5",
         "categorie": "l",
         "mark": "85",
-        "flag": ""
+        "xp": "7 ans"
     }, {
         "name": "less",
         "categorie": "l",
@@ -792,8 +792,7 @@ window.myCV = {
     }, {
         "name": "powershell",
         "categorie": "l",
-        "mark": "50",
-        "flag": ""
+        "mark": "50"
     }, {
         "name": "asp-net",
         "categorie": "l",
@@ -816,8 +815,8 @@ window.myCV = {
         "flag": ""
     }, {
         "name": "git",
-        "mark": "70",
-        "flag": ""
+        "mark": "80",
+        "xp": "7 ans"
     }, {
         "name": "clearcase",
         "mark": "40",
@@ -836,7 +835,7 @@ window.myCV = {
     }, {
         "name": "nodejs",
         "mark": "70",
-        "flag": ""
+        "xp": "1 an"
     }, {
         "name": "angularjs",
         "mark": "60",
@@ -844,15 +843,16 @@ window.myCV = {
     }, {
         "name": "angular2",
         "mark": "85",
-        "flag": ""
+        "flag": "",
+        "xp": "3 ans"
     }, {
         "name": "react",
-        "mark": "70",
-        "flag": ""
+        "mark": "65",
+        "xp": "1 an"
     }, {
         "name": "vuejs",
-        "mark": "55",
-        "flag": ""
+        "mark": "50",
+        "xp": "1 mois"
     }, {
         "name": "dojo",
         "mark": "60",
