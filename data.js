@@ -1,10 +1,10 @@
 window.myCV = {
     "orderedKeywords": ["en", "responsive", "es6", "websocket", "firebase", "firestore", "opensource",
-        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova"
+        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react"
     ],
     "keywords": {
         "en": "international",
-        "responsive": "responsive design",
+        "responsive": "responsive",
         "es6": "es6",
         "spa": "single page application",
         "vanillajs": "vanillaJs",
@@ -20,7 +20,12 @@ window.myCV = {
         "gitlab": "gitlab",
         "opensource": "open source",
         "pwa": "pwa",
-        "cordova": "cordova"
+        "cordova": "cordova",
+        "strapi": "strapi",
+        "nuxt": "nuxt",
+        "angular": "angular",
+        "react": "react",
+        "vuejs": "vuejs"
     },
     "download": "Télécharger au format pdf",
     "download_en": "Download to pdf format",
@@ -76,8 +81,28 @@ window.myCV = {
         "duration": "x mois",
         "duration_en": "x months",
         "capacity": "Développeur web front-end / Tech-lead (js)",
-        "capacity_en": "Web front-end developer - freelance (js)",
+        "capacity_en": "Web front-end developer / Tech-lead (js)",
         "missions": [
+            {
+                "companyKey": "iepf",
+                "capacity": "Evolutions du site e-commerce",
+                "capacity_en": "??",
+                "duration": "4 mois",
+                "duration_en": "4 months",
+                "nbDev": 0,
+                "practices": [
+                    "Conception et développement de nouvelles fonctionnalités (site vitrine + BO)",
+                    "Refonte de la charte graphique",
+                    "Développements full-stack (back-end Nodejs avec Strapi)"
+                ],
+                "practices_en": [
+                    "??",
+                    "??",
+                    "??"
+                ],
+                "skillsKeys": ["js", "vuejs", "html5", "css3", "git", "linux", "materialdesign", "spa", "es6", "responsive", "nodejs"],
+                "keywords": ["spa", "responsive", "es6", "strapi", "nuxt", "vuejs"],
+            },
             {
                 "companyKey": "syd",
                 "capacity": "Création d'une Progressive Web Application",
@@ -92,10 +117,11 @@ window.myCV = {
                 ],
                 "practices_en": [
                     "??",
+                    "??",
                     "??"
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
-                "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "firebase", "firestore"],
+                "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "firebase", "firestore", "angular"],
             },
             {
             "companyKey": "capgemini",
@@ -112,8 +138,8 @@ window.myCV = {
                 "??",
                 "??"
             ],
-            "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
-            "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "en", "docker"],
+            "skillsKeys": ["js", "angular2", "vuejs", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
+            "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "en", "docker", "angular"],
         },
             {
                 "companyKey": "enedis",
@@ -184,7 +210,7 @@ window.myCV = {
         "duration": "3 ans 8 mois",
         "duration_en": "3 years 8 months",
         "capacity": "Développeur web front-end (js)",
-        "capacity_en": "Web software engineer (Js)",
+        "capacity_en": "Web software engineer (js)",
         "missions": [{
             "companyKey": "arpege",
             "capacity": "Création d'un composant de visualisation et de modification de données cartographiques",
@@ -236,50 +262,45 @@ window.myCV = {
             "nbDev": 3,
             "practices": [
                 "Prototypage et maquettage de l’application",
-                "Mise en place de l’outillage (Grunt, Browserify, Less…)",
-                "Mise en place de l'application web et de son architecture",
+                "Mise en place de l'application web, de son architecture et outillage",
                 "Mise en place des tests unitaires et d'integration (Karma, Jasmine)"
             ],
             "skillsKeys": ["js", "angularjs", "nodejs", "html5", "css3", "less", "grunt", "git", "webstorm", "linux", "spa", "es6"],
             "keywords": [], //["spa", "es6"],
             "capacity_en": "Creation of a web application",
             "duration_en": "3 months",
-            "practices_en": ["Proof of concept of the application", "Creation of the application foundation (Grunt, Browserify, Less…)", "Development with AngularJS, HTML5, CSS3, Bootstrap", "Creation of unit and integration tests (Karma, Jasmine)"]
-        }, {
-            "companyKey": "wiztivi",
-            "capacity": "Création d'application hybride de contenu VOD",
-            "duration": "6 mois",
-            "nbDev": 3,
-            "practices": ["Conception et développement de diverses fonctionnalités et composants", "Développement de l'application en responsive design (mobile/tablette/pc)", "Packaging de l'application pour iOS, Android et PC"],
-            "skillsKeys": ["js", "nodejs", "html5", "css3", "less", "grunt", "git", "webstorm", "responsive", "linux", "cordova", "jira", "dojo", "spa", "es6"],
-            "keywords": ["spa", "responsive", "es6", "cordova"],
-            "capacity_en": "Creation of an hybrid app for VOD content",
-            "duration_en": "6 months",
-            "practices_en": ["Design and development of many features and components", "Responsive development of the application (mobile/tablet/pc)", "Packaging of the application for iOS, Android and PC"]
+            "practices_en": ["Proof of concept of the application",
+                "Implementation of the new webapp with the appropriate architecture and tools", "Creation of unit and integration tests (Karma, Jasmine)"]
         }, {
             "companyKey": "wiztivi",
             "capacity": "Création et maintenance d'interfaces pour box TV",
-            "duration": "2 ans",
+            "capacity_en": "Creation and maintenance of a UI for TV box",
+            "duration": "2.5 ans",
+            "duration_en": "2.5 years",
             "nbDev": 5,
             "practices": [
                 "Mise en place de la structure et de l'outillage des applications",
                 "Conception et développement de plusieurs fonctionnalités",
-                "Création de multiples composants transverses",
+                "Création de composants transverses",
                 "Développements, tests et débuggage sur box TV (applications embarquées)",
                 "Co-développement à distance avec une équipe internationale",
-                "Implementation de tests unitaires et fonctionnels (karma)"
+                "Implementation de tests unitaires et fonctionnels (karma)",
+                "Développement d'application hybride responsive (mobile/tablette/pc)",
+                "Packaging d'application pour iOS, Android et PC"
             ],
             "practices_en": [
                 "Creation of the application foundation and tooling",
                 "Design and development of many features",
-                "Creation of multiple transversal components",
+                "Creation of transversal components",
                 "Developments, tests and debugging on TV box (on-board applications)",
-                "Remote international development team", "Writing unit and functional tests (karma)"
+                "Remote international development team",
+                "Writing unit and functional tests (karma)",
+                "Responsive development of hybrid application (mobile/tablet/pc)",
+                "Packaging of the application for iOS, Android and PC"
             ],
-            "skillsKeys": ["js", "nodejs", "html5", "css3", "less", "grunt", "git", "svn", "webstorm", "linux", "dojo", "canvas", "spa", "en"],
-            "keywords": ["en", "spa"],
-            "capacity_en": "Creation and maintenance of a UI for TV box",
-            "duration_en": "2 years",
+            "skillsKeys": ["js", "nodejs", "html5", "css3", "less", "grunt", "git", "svn", "webstorm", "linux", "dojo", "canvas", "spa", "en", "es6", "cordova"],
+            "keywords": ["en", "spa", "responsive", "es6", "cordova"],
+
 
         }],
     }, {
@@ -332,13 +353,13 @@ window.myCV = {
         "type": "en CDS",
         "missions": [{
             "companyKey": "sncf",
-            "capacity": "Création d'un site de saisie de messages d’alerte",
+            "capacity": "Création d'un back-office",
             "duration": "3 mois",
             "nbDev": 2,
             "practices": ["Conception du modèle de données", "Conception et implémentation du site web de saisie et du back-end", "Mise en place d'un flux RSS"],
             "skillsKeys": ["js", "cs", "css3", "vs", "windows", "clearcase", "jquery", "asp-net"],
             "keywords": [],
-            "capacity_en": "Design of a website that creates alerting messages for employees",
+            "capacity_en": "Design of a back-office website",
             "duration_en": "3 months",
             "practices_en": ["Design of the data model", "Design and development of the front-end website and the back-end", "Creation of RSS feeds"]
         }, {
@@ -355,16 +376,17 @@ window.myCV = {
         }, {
             "companyKey": "sncf",
             "capacity": "Maintenance et évolution de l'application de vente au guichet",
-            "duration": "2 ans et demi",
+            "duration": "2.5 ans",
+            "duration_en": "2 years and 6 months",
             "nbDev": 2,
-            "practices": ["Conception, chiffrage et développement d'évolutions majeures, correction d'anomalies (client lourd)", "Maintenance d'un outil de test automatisé de l'application", "Conception et création de WebService",
-                "Accompagnement de nouveaux développeurs lors de leur montée en compétences"
+            "practices": ["Conception, chiffrage et développement d'évolutions majeures", "Correction d'anomalies (client lourd)", "Maintenance d'un outil de test automatisé de l'application", "Conception et création de WebService",
+                "Accompagnement de développeurs lors de leur montée en compétences"
             ],
             "skillsKeys": ["cs", "vs", "windows", "msqlserver", "clearcase"],
             "keywords": [],
             "capacity_en": "Maintenance of the train office sale application",
-            "duration_en": "2 years and 6 months",
-            "practices_en": ["Design, evaluation and development of main features, bug fixing (thick client)", "Application automation test tool's maintenance", "WebServices design and creation", "Intervention in functionally complex areas (taxation, data persistence ...)", "Mentoring of new developers during their integrations"]
+            "practices_en": ["Design, evaluation and development of main features" , "Bug fixing (thick client)", "Application automation test tool's maintenance",
+                "WebServices design and creation",  "Mentoring of new developers during their integrations"]
         }],
         "startDate_en": "augu. 2008",
         "capacity_en": "Software engineer (C#)"
@@ -672,6 +694,11 @@ window.myCV = {
             "url_en": "https://www.capgemini.com/",
             "description_en": "Cap Gemini S.A. is a French multinational management consulting corporation headquartered in Paris, France."
         },
+        "iepf": {
+            "name": "Iletaitplusieursfois",
+            "url": "https://iletaitplusieursfois.com/",
+            "description": "L'eshop de seconde main pour enfants de 0 à 12 ans casual chic",
+        },
         "syd": {
             "name": "Groupe Syd",
             "url": "https://syd.fr/",
@@ -815,7 +842,7 @@ window.myCV = {
         "flag": ""
     }, {
         "name": "git",
-        "mark": "80",
+        "mark": "85",
         "xp": "7 ans"
     }, {
         "name": "clearcase",
@@ -852,7 +879,7 @@ window.myCV = {
     }, {
         "name": "vuejs",
         "mark": "50",
-        "xp": "1 mois"
+        "xp": "6 mois"
     }, {
         "name": "dojo",
         "mark": "60",
