@@ -393,11 +393,10 @@ window.myCV = {
     }],
     "personalStuff": [{
         "title": "Jeux",
-        // "url" : "https://my-html5-games.herokuapp.com/all/",
         "lines": [{
             "date": "2011",
             "link": {
-                "url": "",
+                "url" : "https://viruskiller-html5.herokuapp.com/",
                 "label": "Virus Killer"
             },
             "label": "multi-joueur temps réel, inspiré de 'Docteur Mario'",
@@ -429,7 +428,7 @@ window.myCV = {
                     "url": "https://my-html5-games.herokuapp.com",
                     "label": "Factory fun"
                 },
-                "label": "multi-joueur temps réel, inspiré du jeu de plateau 'Factory fun'",
+                "label": "multi-joueur temps réel, inspiré du jeu 'Factory fun'",
                 "label_en": "Online multiplayer game (real time), inspired by the board game 'Factory fun'",
                 "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
             },
