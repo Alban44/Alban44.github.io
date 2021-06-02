@@ -711,6 +711,11 @@ window.myCV = {
             "url_en": "https://www.capgemini.com/",
             "description_en": "Cap Gemini S.A. is a French multinational management consulting corporation headquartered in Paris, France."
         },
+        "logick": {
+            "name": "Logick",
+            "url": "https://logick.co/",
+            "description": "Service de billetterie et de gestion informatisée de publics",
+        },
         "iepf": {
             "name": "Iletaitplusieursfois",
             "url": "https://iletaitplusieursfois.com/",
