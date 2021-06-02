@@ -51,7 +51,7 @@ window.myCV = {
 
 
     //TODO in english
-    "aboutMe1": "Développeur depuis plus de 12 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
+    "aboutMe1": "Développeur depuis plus de 13 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
     "aboutMe2": "Passionné et rigoureux, j'apprecie le travail bien fait et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
     "aboutMe3": "Nantes et/ou en télétravail.",
 
@@ -83,6 +83,24 @@ window.myCV = {
         "capacity": "Développeur web front-end / Tech-lead (js)",
         "capacity_en": "Web front-end developer / Tech-lead (js)",
         "missions": [
+            {
+                "companyKey": "logick",
+                "capacity": "Création d'applications web",
+                "capacity_en": "??",
+                "duration": "6 mois",
+                "duration_en": "4 months",
+                "nbDev": 1,
+                "practices": [
+                    "Mise en place des applications web et de leurs architectures (ventes en ligne, back-office, interface de caisse)",
+                    "Conception et développements de multiples fonctionnalités",
+                ],
+                "practices_en": [
+                    "??",
+                    "??"
+                ],
+                "skillsKeys": ["js", "angular2", "html5", "css3", "git", "linux", "spa", "es6", "responsive", "typescript"],
+                "keywords": ["spa", "responsive", "es6", "angular"],
+            },
             {
                 "companyKey": "iepf",
                 "capacity": "Evolutions du site e-commerce",
@@ -161,7 +179,7 @@ window.myCV = {
                     "??"
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript"],
-                "keywords": ["spa", "responsive", "es6", "materialdesign", "docker"],
+                "keywords": ["spa", "responsive", "es6", "materialdesign", "docker", "angular"],
             }
         ],
 
@@ -785,7 +803,7 @@ window.myCV = {
     }, {
         "name": "js",
         "mark": "93",
-        "xp": "7 ans" // TODO in english...
+        "xp": "8 ans" // TODO in english...
     }, {
         "name": "cs",
         "categorie": "l",
@@ -794,17 +812,17 @@ window.myCV = {
         "name": "typescript",
         "categorie": "l",
         "mark": "85",
-        "xp": "3 ans"
+        "xp": "4 ans"
     }, {
         "name": "css3",
         "categorie": "l",
         "mark": "85",
-        "xp": "7 ans"
+        "xp": "8 ans"
     }, {
         "name": "html5",
         "categorie": "l",
         "mark": "85",
-        "xp": "7 ans"
+        "xp": "8 ans"
     }, {
         "name": "less",
         "categorie": "l",
@@ -842,7 +860,7 @@ window.myCV = {
     }, {
         "name": "git",
         "mark": "85",
-        "xp": "7 ans"
+        "xp": "8 ans"
     }, {
         "name": "clearcase",
         "mark": "40",
@@ -861,7 +879,7 @@ window.myCV = {
     }, {
         "name": "nodejs",
         "mark": "70",
-        "xp": "1 an"
+        "xp": "1 an+"
     }, {
         "name": "angularjs",
         "mark": "60",
@@ -870,15 +888,15 @@ window.myCV = {
         "name": "angular2",
         "mark": "85",
         "flag": "",
-        "xp": "3 ans"
+        "xp": "4 ans"
     }, {
         "name": "react",
         "mark": "65",
         "xp": "1 an"
     }, {
         "name": "vuejs",
-        "mark": "50",
-        "xp": "6 mois"
+        "mark": "65",
+        "xp": "1 an"
     }, {
         "name": "dojo",
         "mark": "60",
