@@ -51,7 +51,7 @@ window.myCV = {
 
 
     //TODO in english
-    "aboutMe1": "Développeur depuis plus de 13 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
+    "aboutMe1": "Développeur depuis plus de 14 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
     "aboutMe2": "Passionné et rigoureux, j'apprecie le travail bien fait et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
     "aboutMe3": "Nantes et/ou en télétravail.",
 
@@ -85,21 +85,21 @@ window.myCV = {
         "missions": [
             {
                 "companyKey": "logick",
-                "capacity": "Création d'applications web",
+                "capacity": "Création d'applications web [full remote]",
                 "capacity_en": "??",
-                "duration": "6 mois",
-                "duration_en": "4 months",
+                "duration": "2 ans",
+                "duration_en": "2 years",
                 "nbDev": 1,
                 "practices": [
-                    "Mise en place des applications web et de leurs architectures (ventes en ligne, back-office, interface de caisse)",
-                    "Conception et développements de multiples fonctionnalités",
+                    "Création de multiples applications web avec leurs architectures\n (ventes en ligne, back-offices, interface de caisse)",
+                    "Création d'un back-end avec firestore + firebase + cloud functions",
                 ],
                 "practices_en": [
                     "??",
                     "??"
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "linux", "spa", "es6", "responsive", "typescript"],
-                "keywords": ["spa", "responsive", "es6", "angular"],
+                "keywords": ["spa", "responsive", "es6", "angular", "firebase", "firestore"],
             },
             {
                 "companyKey": "iepf",
@@ -417,7 +417,7 @@ window.myCV = {
                 "url" : "https://viruskiller-html5.herokuapp.com/",
                 "label": "Virus Killer"
             },
-            "label": "multi-joueur temps réel, inspiré de 'Docteur Mario'",
+            "label": "multi-joueur temps réel, inspiré de 'Docteur Mario'",
             "label_en": "real time multiplayer, inspired by 'Doctor Mario'",
             "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
         },
@@ -446,7 +446,7 @@ window.myCV = {
                     "url": "https://my-html5-games.herokuapp.com",
                     "label": "Factory fun"
                 },
-                "label": "multi-joueur temps réel, inspiré du jeu 'Factory fun'",
+                "label": "Jeu multi-joueur temps réel, inspiré du jeu de plateau 'Factory fun'",
                 "label_en": "Online multiplayer game (real time), inspired by the board game 'Factory fun'",
                 "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
             },
@@ -463,8 +463,8 @@ window.myCV = {
                     "url": "",
                     "label": "Math Trade"
                 },
-                "label": "Site web d’échange circulaire de jeux de plateau (front-end ReactJS/Redux et firebase en back-end)",
-                "label_en": "Creation of a boardgame trade web site (ReactJS/Redux + firebase as back-end)",
+                "label": "Site web d’échange circulaire de jeux de plateau (front-end React/Redux et back-end firebase)",
+                "label_en": "Creation of a boardgame trade web site (React/Redux + firebase as back-end)",
                 "skills": ["react", "js", "html5", "css3", "git"]
             }, {
                 "date": "2017",
@@ -475,7 +475,7 @@ window.myCV = {
                     "label_en": "Search french postal code"
                 },
                 "skills": ["react", "js", "html5", "css3", "git"],
-                // "label": "utilisation de ReactJS/Redux",
+                "label": "Découverte de l'environnement React/Redux",
                 "label_en": "Using ReactJS/Redux/React-router"
             },
             {
@@ -488,7 +488,21 @@ window.myCV = {
                 },
                 "skills": ["vuejs", "js", "html5", "css3", "git"],
                 "label_en": "Using AngularJs (french/english)"
-            }],
+            },
+            {
+                "date": "2022",
+                "link": {
+                    "url": "https://movies-browser.com",
+                    "label": "Moteur de recherche de films",
+                    "url_en": "https://movies-browser.com",
+                    "label_en": "???",
+                },
+                "skills": ["vuejs", "js", "html5", "css3", "git", "resoponsive"],
+                "label": "Utilisation d'elasticsearch pour le moteur de recherche + express en back-end, nuxt, SSR, optimisations SEO",
+                "label_en": "???"
+            }
+
+            ],
         // "skillsKeys": ["js", "react", "angularjs", "html5", "css3", "webpack", "webstorm", "materialdesign", "firebase", "vanillajs", "spa", "redux"],
         "keywords": ["spa", "vanillajs", "redux", "firebase", "materialdesign"],
         "title_en": "Web sites"
@@ -817,7 +831,7 @@ window.myCV = {
         "name": "typescript",
         "categorie": "l",
         "mark": "85",
-        "xp": "4 ans"
+        "xp": "5 ans"
     }, {
         "name": "css3",
         "categorie": "l",
@@ -893,7 +907,7 @@ window.myCV = {
         "name": "angular2",
         "mark": "85",
         "flag": "",
-        "xp": "4 ans"
+        "xp": "5 ans"
     }, {
         "name": "react",
         "mark": "65",
