@@ -1,5 +1,5 @@
 window.myCV = {
-    "orderedKeywords": ["en", "responsive", "es6", "websocket", "firebase", "firestore", "opensource",
+    "orderedKeywords": ["en", "responsive", "websocket", "firebase", "firestore", "opensource",
         "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react"
     ],
     "keywords": {
@@ -51,8 +51,8 @@ window.myCV = {
 
 
     //TODO in english
-    "aboutMe1": "Développeur depuis plus de 14 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
-    "aboutMe2": "Passionné et rigoureux, j'apprecie le travail bien fait et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
+    "aboutMe1": "Développeur depuis plus de 15 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
+    "aboutMe2": "Passionné et rigoureux, j'apprecie le travail de qualité et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
     "aboutMe3": "Nantes et/ou en télétravail.",
 
     "contacts": ["https://alban44.github.io/", "https://fr.linkedin.com/in/alban-alnot-freelance"],
@@ -87,11 +87,11 @@ window.myCV = {
                 "companyKey": "logick",
                 "capacity": "Création d'applications web [full remote]",
                 "capacity_en": "??",
-                "duration": "2 ans",
+                "duration": "3 ans 6 mois",
                 "duration_en": "2 years",
                 "nbDev": 1,
                 "practices": [
-                    "Création de multiples applications web avec leurs architectures\n (ventes en ligne, back-offices, interface de caisse)",
+                    "Création de multiples applications web avec leurs architectures\n (ventes en ligne, back-offices, interfaces de caisse)",
                     "Création d'un back-end avec firestore + firebase + cloud functions",
                 ],
                 "practices_en": [
@@ -142,23 +142,23 @@ window.myCV = {
                 "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "firebase", "firestore", "angular"],
             },
             {
-            "companyKey": "capgemini",
-            "capacity": "Evolution d'une Progressive Web Application",
-            "capacity_en": "??",
-            "duration": "5 mois",
-            "duration_en": "5 months",
-            "nbDev": 0,
-            "practices": [
-                "Corrections et évolutions de la progressive webapp (front et back-end)",
-                "Conception et développement de nouveaux composants front"
-            ],
-            "practices_en": [
-                "??",
-                "??"
-            ],
-            "skillsKeys": ["js", "angular2", "vuejs", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
-            "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "en", "docker", "angular"],
-        },
+                "companyKey": "capgemini",
+                "capacity": "Evolution d'une Progressive Web Application",
+                "capacity_en": "??",
+                "duration": "5 mois",
+                "duration_en": "5 months",
+                "nbDev": 0,
+                "practices": [
+                    "Corrections et évolutions de la progressive webapp (front et back-end)",
+                    "Conception et développement de nouveaux composants front"
+                ],
+                "practices_en": [
+                    "??",
+                    "??"
+                ],
+                "skillsKeys": ["js", "angular2", "vuejs", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
+                "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "en", "docker", "angular"],
+            },
             {
                 "companyKey": "enedis",
                 "capacity": "Création d'une nouvelle application web",
@@ -190,7 +190,7 @@ window.myCV = {
         "endDate": "jan. 2019",
         "duration": "1 an",
         "duration_en": "1 year",
-        "capacity": "Développeur et responsable front-end (js) [télétravail]",
+        "capacity": "Développeur et responsable front-end (js) [remote]",
         "capacity_en": "Web software engineer - head of front-end team (remote)",
         "missions": [{
             "companyKey": "",
@@ -409,86 +409,36 @@ window.myCV = {
         "startDate_en": "augu. 2008",
         "capacity_en": "Software engineer (C#)"
     }],
-    "personalStuff": [{
-        "title": "Jeux",
-        "lines": [{
-            "date": "2011",
-            "link": {
-                "url" : "https://viruskiller-html5.herokuapp.com/",
-                "label": "Virus Killer"
+    "personalStuff": [
+        {
+            "title": "Entre 2 Chaises",
+            "desc": "Co-fondateur et responsable technique de la maison d'édition 'Entre 2 Chaises' créée en 2023.<br>Édition du premier jeu <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a>.",
+            "lines": [{
+                "date": "2023",
+                "link": {
+                    "url" : "https://e2c-jeux.fr",
+                    "label": "Site web"
+                },
+                "label": "Création du site web.",
+                "label_en": "",
+                "skills": ["js", "html5", "css3", "git", "vuejs"]
             },
-            "label": "multi-joueur temps réel, inspiré de 'Docteur Mario'",
-            "label_en": "real time multiplayer, inspired by 'Doctor Mario'",
-            "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
+                {
+                    "date": "2023",
+                    "link": {
+                        "url" : "https://faux-raccords.e2c-jeux.fr",
+                        "label": "Application 'Faux Raccords'"
+                    },
+                    "label": "Application web permettant de générer la vidéo bonus d'une partie (ffmpeg). Reconnaissance de cartes (tensorflow).",
+                    "label_en": "",
+                    "skills": ["js", "html5", "css3", "git", "vuejs", "nodejs"]
+                }],
+            "skillsKeys": ["js", "react", "angularjs", "vuejs", "nodejs", "cs", "html5", "css3", "less", "webpack", "webstorm", "websocket", "bootstrap"],
+            "title_en": "Entre 2 Chaises"
         },
-            {
-                "date": "2013",
-                "link": {
-                    "url": "https://my-html5-games.herokuapp.com/Decalco",
-                    "label": "Decalco"
-                },
-                "label": "Jeu de calcul pour enfants",
-                "label_en": "Solo calculation game for children",
-                "skills": ["js", "html5", "css3", "git"]
-            }, {
-                "date": "2013",
-                "link": {
-                    "url": "https://my-html5-games.herokuapp.com/CalcKiller",
-                    "label": "Calc'Killer"
-                },
-                "label": "Jeu de calcul pour adultes (multi-niveaux)",
-                "label_en": "Solo calculation game (multi level)",
-                "skills": ["js", "html5", "css3", "git"]
-            },
-            {
-                "date": "2014",
-                "link": {
-                    "url": "https://my-html5-games.herokuapp.com",
-                    "label": "Factory fun"
-                },
-                "label": "Jeu multi-joueur temps réel, inspiré du jeu de plateau 'Factory fun'",
-                "label_en": "Online multiplayer game (real time), inspired by the board game 'Factory fun'",
-                "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
-            },
-        ],
-        // "skillsKeys": ["js", "nodejs", "html5", "css3", "grunt", "git", "webstorm", "vanillajs", "jquery", "mongodb", "socket.io", "websocket", "canvas"],
-        "keywords": ["vanillajs", "canvas", "websocket"],
-        "title_en": "Games"
-    }, {
+        {
         "title": "Sites web",
         "lines": [
-            {
-                "date": "2016",
-                "link": {
-                    "url": "",
-                    "label": "Math Trade"
-                },
-                "label": "Site web d’échange circulaire de jeux de plateau (front-end React/Redux et back-end firebase)",
-                "label_en": "Creation of a boardgame trade web site (React/Redux + firebase as back-end)",
-                "skills": ["react", "js", "html5", "css3", "git"]
-            }, {
-                "date": "2017",
-                "link": {
-                    "url": "https://my-html5-games.herokuapp.com/recherche-code-postal",
-                    "label": "Recherche de code postal",
-                    "url_en": "https://my-html5-games.herokuapp.com/recherche-code-postal",
-                    "label_en": "Search french postal code"
-                },
-                "skills": ["react", "js", "html5", "css3", "git"],
-                "label": "Découverte de l'environnement React/Redux",
-                "label_en": "Using ReactJS/Redux/React-router"
-            },
-            {
-                "date": "2019",
-                "link": {
-                    "url": "https://alban44.github.io",
-                    "label": "Mon CV",
-                    "url_en": "",
-                    "label_en": "My resume online",
-                },
-                "skills": ["vuejs", "js", "html5", "css3", "git"],
-                "label_en": "Using AngularJs (french/english)"
-            },
             {
                 "date": "2022",
                 "link": {
@@ -500,27 +450,80 @@ window.myCV = {
                 "skills": ["vuejs", "js", "html5", "css3", "git", "resoponsive"],
                 "label": "Utilisation d'elasticsearch pour le moteur de recherche + express en back-end, nuxt, SSR, optimisations SEO",
                 "label_en": "???"
-            }
+            }, {
+                "date": "2019",
+                "link": {
+                    "url": "https://alban44.github.io",
+                    "label": "Mon CV",
+                    "url_en": "",
+                    "label_en": "My resume online",
+                },
+                "skills": ["vuejs", "js", "html5", "css3", "git"],
+                "label_en": "Using AngularJs (french/english)"
+            },
+            {
+                "date": "2016",
+                "link": {
+                    "url": "",
+                    "label": "Math Trade"
+                },
+                "label": "Site web d’échange circulaire de jeux de plateau (front-end React/Redux et back-end firebase)",
+                "label_en": "Creation of a boardgame trade web site (React/Redux + firebase as back-end)",
+                "skills": ["react", "js", "html5", "css3", "git"]
+            },
 
-            ],
+        ],
         // "skillsKeys": ["js", "react", "angularjs", "html5", "css3", "webpack", "webstorm", "materialdesign", "firebase", "vanillajs", "spa", "redux"],
         "keywords": ["spa", "vanillajs", "redux", "firebase", "materialdesign"],
         "title_en": "Web sites"
     },
-        //     {
-        //     "title": "Divers",
-        //     "lines": [{
-        //         "label": "Utilisations d'AngularJs, VueJS, ReactJS et de Boostrap pour des sites web mineurs",
-        //         "label_en": "Use of AngularJs, ReactJS, VueJs and Boostrap for several minor websites"
-        //     }, {
-        //         "label": "Participation à la création d’un jeu multijoueurs avec Unity3D/C# et websocket (nodeJS)",
-        //         "label_en": "Participation of the creation of a multiplayer game using Unity3D/C# and websocket (nodeJS)"
-        //     }],
-        //     "skillsKeys": ["js", "react", "angularjs", "vuejs", "nodejs", "cs", "html5", "css3", "less", "webpack", "webstorm", "websocket", "bootstrap"],
-        //     "keywords": ["websocket"],
-        //     "id": "mission15",
-        //     "title_en": "Miscellaneous"
-        // }
+
+        {
+            "title": "Jeux",
+            "lines": [{
+                "date": "2011",
+                "link": {
+                    "url" : "https://viruskiller.onrender.com",
+                    "label": "Virus Killer"
+                },
+                "label": "multi-joueur temps réel, inspiré de 'Docteur Mario'",
+                "label_en": "real time multiplayer, inspired by 'Doctor Mario'",
+                "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
+            },
+                {
+                    "date": "2013",
+                    "link": {
+                        "url": "https://html5-games-ff.onrender.com/Decalco",
+                        "label": "Decalco"
+                    },
+                    "label": "Jeu de calcul pour enfants",
+                    "label_en": "Solo calculation game for children",
+                    "skills": ["js", "html5", "css3", "git"]
+                }, {
+                    "date": "2013",
+                    "link": {
+                        "url": "https://html5-games-ff.onrender.com/CalcKiller",
+                        "label": "Calc'Killer"
+                    },
+                    "label": "Jeu de calcul pour adultes (multi-niveaux)",
+                    "label_en": "Solo calculation game (multi level)",
+                    "skills": ["js", "html5", "css3", "git"]
+                },
+                {
+                    "date": "2014",
+                    "link": {
+                        "url": "https://html5-games-ff.onrender.com/",
+                        "label": "Factory fun"
+                    },
+                    "label": "Jeu multi-joueur temps réel, inspiré du jeu de plateau 'Factory fun'",
+                    "label_en": "Online multiplayer game (real time), inspired by the board game 'Factory fun'",
+                    "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
+                },
+            ].reverse(),
+            // "skillsKeys": ["js", "nodejs", "html5", "css3", "grunt", "git", "webstorm", "vanillajs", "jquery", "mongodb", "socket.io", "websocket", "canvas"],
+            "keywords": ["vanillajs", "canvas", "websocket"],
+            "title_en": "Games"
+        },
     ],
     "miscLabel": "Centres d'intêret",
     "miscLabel_en": "Hobbies",
@@ -822,7 +825,7 @@ window.myCV = {
     }, {
         "name": "js",
         "mark": "93",
-        "xp": "8 ans" // TODO in english...
+        "xp": "9 ans" // TODO in english...
     }, {
         "name": "cs",
         "categorie": "l",
@@ -831,17 +834,17 @@ window.myCV = {
         "name": "typescript",
         "categorie": "l",
         "mark": "85",
-        "xp": "5 ans"
+        "xp": "6 ans"
     }, {
         "name": "css3",
         "categorie": "l",
         "mark": "85",
-        "xp": "8 ans"
+        "xp": "9 ans"
     }, {
         "name": "html5",
         "categorie": "l",
         "mark": "85",
-        "xp": "8 ans"
+        "xp": "9 ans"
     }, {
         "name": "less",
         "categorie": "l",
@@ -879,7 +882,7 @@ window.myCV = {
     }, {
         "name": "git",
         "mark": "85",
-        "xp": "8 ans"
+        "xp": "9 ans"
     }, {
         "name": "clearcase",
         "mark": "40",
@@ -898,7 +901,7 @@ window.myCV = {
     }, {
         "name": "nodejs",
         "mark": "70",
-        "xp": "1 an+"
+        "xp": "3 ans"
     }, {
         "name": "angularjs",
         "mark": "60",
@@ -907,7 +910,7 @@ window.myCV = {
         "name": "angular2",
         "mark": "85",
         "flag": "",
-        "xp": "5 ans"
+        "xp": "6 ans"
     }, {
         "name": "react",
         "mark": "65",
@@ -915,7 +918,7 @@ window.myCV = {
     }, {
         "name": "vuejs",
         "mark": "65",
-        "xp": "1 an"
+        "xp": "2 ans"
     }, {
         "name": "dojo",
         "mark": "60",
