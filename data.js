@@ -1,6 +1,6 @@
 window.myCV = {
     "orderedKeywords": ["en", "responsive", "websocket", "firebase", "firestore", "opensource",
-        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react"
+        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react", "serverless"
     ],
     "keywords": {
         "en": "international",
@@ -25,12 +25,13 @@ window.myCV = {
         "nuxt": "nuxt",
         "angular": "angular",
         "react": "react",
-        "vuejs": "vuejs"
+        "vuejs": "vuejs",
+        "serverless": "serverless"
     },
     "download": "Télécharger au format pdf",
     "download_en": "Download to pdf format",
-    "title": "Développeur web front-end (Javascript)",
-    "title_en": "Web software engineer (Javascript)",
+    "title": "Développeur web front-end / javascript",
+    "title_en": "Web software engineer / javascript",
 
     "technicalSkills": "Compétences techniques",
     "technicalSkills_en": "Technical skills",
@@ -51,7 +52,7 @@ window.myCV = {
 
 
     //TODO in english
-    "aboutMe1": "Développeur depuis plus de 15 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue...",
+    "aboutMe1": "Développeur depuis plus de 15 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue, Nodejs...",
     "aboutMe2": "Passionné et rigoureux, j'apprecie le travail de qualité et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
     "aboutMe3": "Nantes et/ou en télétravail.",
 
@@ -80,26 +81,44 @@ window.myCV = {
         "endDate_en": "today",
         "duration": "x mois",
         "duration_en": "x months",
-        "capacity": "Développeur web front-end / Tech-lead (js)",
+        "capacity": "Développeur web full-stack / tech-lead / javascript",
         "capacity_en": "Web front-end developer / Tech-lead (js)",
         "missions": [
             {
-                "companyKey": "logick",
-                "capacity": "Création d'applications web [full remote]",
+                "companyKey": "3e",
+                "capacity": "Création d'un back-office de gestion de tournées (planning, artistes, facturation...)",
                 "capacity_en": "??",
-                "duration": "3 ans 6 mois",
+                "duration": "2 ans - en cours",
                 "duration_en": "2 years",
                 "nbDev": 1,
                 "practices": [
-                    "Création de multiples applications web avec leurs architectures\n (ventes en ligne, back-offices, interfaces de caisse)",
-                    "Création d'un back-end avec firestore + firebase + cloud functions",
+                    "Affinage du besoin, conception  full-stack de l'application",
+                    "Import des données existantes",
+                    "Implémentation severless (firestore / firebase / cloud functions)",
                 ],
                 "practices_en": [
                     "??",
                     "??"
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "linux", "spa", "es6", "responsive", "typescript"],
-                "keywords": ["spa", "responsive", "es6", "angular", "firebase", "firestore"],
+                "keywords": ["spa", "responsive", "es6", "angular", "firebase", "firestore", "serverless"],
+            },
+            {
+                "companyKey": "logick",
+                "capacity": "Création d'applications web (billeterie)",
+                "capacity_en": "??",
+                "duration": "3 ans 6 mois",
+                "duration_en": "3 years 6 months",
+                "nbDev": 1,
+                "practices": [
+                    "Création de multiples applications web, maintenance et évolution\n (ventes en ligne, back-offices, interfaces de caisse)",
+                ],
+                "practices_en": [
+                    "??",
+                    "??"
+                ],
+                "skillsKeys": ["js", "angular2", "html5", "css3", "git", "linux", "spa", "es6", "responsive", "typescript"],
+                "keywords": ["spa", "responsive", "es6", "angular"],
             },
             {
                 "companyKey": "iepf",
@@ -123,13 +142,13 @@ window.myCV = {
             },
             {
                 "companyKey": "syd",
-                "capacity": "Création d'une Progressive Web Application",
+                "capacity": "Création d'une PWA de gestion de tournées (agents de terrain)",
                 "capacity_en": "??",
                 "duration": "5 mois",
                 "duration_en": "5 months",
                 "nbDev": 0,
                 "practices": [
-                    "Mise en place de la PWA et de son architecture",
+                    "Mise en place de la progressive webapp et de son architecture",
                     "Conception et développement de nouvelles fonctionnalités",
                     "Rôle de tech-lead avec une équipe composée de 4 développeurs"
                 ],
@@ -139,11 +158,11 @@ window.myCV = {
                     "??"
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
-                "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "firebase", "firestore", "angular"],
+                "keywords": ["spa", "responsive", "es6", "pwa", "firebase", "firestore", "angular", "serverless"],
             },
             {
-                "companyKey": "capgemini",
-                "capacity": "Evolution d'une Progressive Web Application",
+                "companyKey": "airliquide",
+                "capacity": "Evolution d'une PWA d'aide à la vente",
                 "capacity_en": "??",
                 "duration": "5 mois",
                 "duration_en": "5 months",
@@ -161,7 +180,7 @@ window.myCV = {
             },
             {
                 "companyKey": "enedis",
-                "capacity": "Création d'une nouvelle application web",
+                "capacity": "Création d'une application web de visualisation cartographique",
                 "capacity_en": "Creation of the new webapp??",
                 "duration": "4 mois",
                 "duration_en": "4 months",
@@ -169,8 +188,7 @@ window.myCV = {
                 "practices": [
                     "Mise en place de l'application web et de son architecture",
                     "Mise en place et utilisation d'ArcGis pour la visualisation cartographique",
-                    "Affinage du besoin",
-                    "Force de proposition UI/UX"
+                    "Affinage du besoin, force de proposition UI/UX",
                 ],
                 "practices_en": [
                     "??",
@@ -194,14 +212,13 @@ window.myCV = {
         "capacity_en": "Web software engineer - head of front-end team (remote)",
         "missions": [{
             "companyKey": "",
-            "capacity": "Création d'une nouvelle application web et d'un back-office",
+            "capacity": "Création d'une application web et d'un back-office",
             "capacity_en": "Creation of the new webapp from scratch",
             "duration": "1 an",
             "duration_en": "1 year",
             "nbDev": 4,
             "practices": [
-                "Mise en place d'une nouvelle application web (architecture et outils)",
-                "Travail en collaboration avec l'équipe de design et l'équipe back-end",
+                "Mise en place d'une application web (architecture et outils)",
                 "Gestion de la migration de l'existant vers la nouvelle architecture",
                 "Mise en place d'une plateforme d'intégration continue (CI/CD)",
                 "Création et maintien d'une suite de tests d'intégration"
@@ -236,7 +253,7 @@ window.myCV = {
             "nbDev": 3,
             "practices": ["Prise en main des outils de cartographie (leaflet, geoserver/geotools, shapefile, Web Map Service)", "Conception, développement et tests du composant", "Intégration du composant dans l'application finale et branchement des API"],
             "skillsKeys": ["js", "angular2", "html5", "css3", "git", "webstorm", "geoserver", "vanillajs", "es6", "leaflet", "windows", "spa"],
-            "keywords": ["spa", "es6", "vanillajs", "leaflet", "geoserver"],
+            "keywords": ["spa", "es6", "vanillajs", "leaflet", "geoserver", "angular"],
             "capacity_en": "Creation of a data visualization/modification cartography component",
             "duration_en": "4 months",
             "practices_en": ["Getting started with cartographic tools (leaflet, geoserver/geotools, shapefile, Web Map Service)", "Conception, development and tests of the component", "Integration of the component into the web application, connection of the API"]
@@ -272,7 +289,7 @@ window.myCV = {
                 "Design and development of new components/services"
             ],
             "skillsKeys": ["js", "angular2", "html5", "css3", "sass", "webpack", "git", "webstorm", "responsive", "windows", "ionic", "typescript", "spa", "es6"],
-            "keywords": ["spa", "responsive", "es6"]
+            "keywords": ["spa", "responsive", "es6", "angular"]
         }, {
             "companyKey": "sr",
             "capacity": "Création d'une application back-office",
@@ -298,13 +315,11 @@ window.myCV = {
             "nbDev": 5,
             "practices": [
                 "Mise en place de la structure et de l'outillage des applications",
-                "Conception et développement de plusieurs fonctionnalités",
-                "Création de composants transverses",
+                "Conception et développement de composants transverses",
                 "Développements, tests et débuggage sur box TV (applications embarquées)",
                 "Co-développement à distance avec une équipe internationale",
                 "Implementation de tests unitaires et fonctionnels (karma)",
-                "Développement d'application hybride responsive (mobile/tablette/pc)",
-                "Packaging d'application pour iOS, Android et PC"
+                "Développement d'application native hybride responsive (mobile/tablette/pc)",
             ],
             "practices_en": [
                 "Creation of the application foundation and tooling",
@@ -341,12 +356,9 @@ window.myCV = {
             "nbDev": 6,
             "practices": [
                 "Méthodologie SCRUM avec équipe scindée à l'international",
-                "Maquettage et prototypage d'applications Windows",
-                "Maintenance et évolution du site web",
-                "Conception et création de WebService",
+                "Maintenance et évolution du site web / web services / ESB",
                 "Mise en place d'une plate-forme automatisée de tests de performance",
                 "Création et maintenance de tests automatisés du site web",
-                "Implementation de tests unitaires et d'intégration"
             ],
             "practices_en": [
                 "SCRUM methodology with worldwide team",
@@ -371,7 +383,7 @@ window.myCV = {
         "type": "en CDS",
         "missions": [{
             "companyKey": "sncf",
-            "capacity": "Création d'un back-office",
+            "capacity": "Création d'un back-office de messaging",
             "duration": "3 mois",
             "nbDev": 2,
             "practices": ["Conception du modèle de données", "Conception et implémentation du site web de saisie et du back-end", "Mise en place d'un flux RSS"],
@@ -385,7 +397,7 @@ window.myCV = {
             "capacity": "Maintenance et évolution du site Internet",
             "duration": "7 mois",
             "nbDev": 5,
-            "practices": ["Conception et développement d'évolutions majeures, correction d'anomalies", "Création d'outils d'automatisation (traitement en GED, déploiement..)", "Rédaction et exécution de plans de tests"],
+            "practices": ["Conception et développement d'évolutions majeures, correction d'anomalies", "Création d'outils d'automatisation (traitement en GED, déploiement..)"],
             "skillsKeys": ["js", "cs", "svn", "vs", "windows", "msqlserver", "asp-net"],
             "keywords": [],
             "capacity_en": "Maintenance of the website",
@@ -397,7 +409,7 @@ window.myCV = {
             "duration": "2.5 ans",
             "duration_en": "2 years and 6 months",
             "nbDev": 2,
-            "practices": ["Conception, chiffrage et développement d'évolutions majeures", "Correction d'anomalies (client lourd)", "Maintenance d'un outil de test automatisé de l'application", "Conception et création de WebService",
+            "practices": ["Conception, chiffrage et développement d'évolutions majeures", "Maintenance d'un outil de test automatisé de l'application", "Conception et création de WebService",
                 "Accompagnement de développeurs lors de leur montée en compétences"
             ],
             "skillsKeys": ["cs", "vs", "windows", "msqlserver", "clearcase"],
@@ -447,7 +459,7 @@ window.myCV = {
                     "url_en": "https://movies-browser.com",
                     "label_en": "???",
                 },
-                "skills": ["vuejs", "js", "html5", "css3", "git", "resoponsive"],
+                "skills": ["vuejs", "js", "html5", "css3", "git", "responsive"],
                 "label": "Utilisation d'elasticsearch pour le moteur de recherche + express en back-end, nuxt, SSR, optimisations SEO",
                 "label_en": "???"
             }, {
@@ -728,14 +740,19 @@ window.myCV = {
             "url_en": "https://www.capgemini.com/",
             "description_en": "Cap Gemini S.A. is a French multinational management consulting corporation headquartered in Paris, France."
         },
+        "3e": {
+            "name": "3e étage",
+            "url": "https://www.3e-etage.com/",
+            "description": "Compagnie de danse",
+        },
         "logick": {
             "name": "Logick",
             "url": "https://logick.co/",
             "description": "Service de billetterie et de gestion informatisée de publics",
         },
         "iepf": {
-            "name": "Iletaitplusieursfois",
-            "url": "https://iletaitplusieursfois.com/",
+            "name": "Smala",
+            "url": "https://www.smala.com/",
             "description": "L'eshop de seconde main pour enfants de 0 à 12 ans casual chic",
         },
         "syd": {
@@ -913,7 +930,7 @@ window.myCV = {
         "xp": "6 ans"
     }, {
         "name": "react",
-        "mark": "65",
+        "mark": "40",
         "xp": "1 an"
     }, {
         "name": "vuejs",
