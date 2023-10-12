@@ -1,6 +1,6 @@
 window.myCV = {
     "orderedKeywords": ["en", "responsive", "websocket", "firebase", "firestore", "opensource",
-        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react", "serverless"
+        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react", "serverless", "remote"
     ],
     "keywords": {
         "en": "international",
@@ -26,8 +26,11 @@ window.myCV = {
         "angular": "angular",
         "react": "react",
         "vuejs": "vuejs",
-        "serverless": "serverless"
+        "serverless": "serverless",
+        "remote": "remote"
     },
+    "ongoing": "En cours",
+    "ongoing_en": "ongoing",
     "download": "Télécharger au format pdf",
     "download_en": "Download to pdf format",
     "title": "Développeur web front-end / javascript",
@@ -53,10 +56,14 @@ window.myCV = {
 
     //TODO in english
     "aboutMe1": "Développeur depuis plus de 15 ans, je recherche des projets de développement front-end gravitant autour des technologies javascript modernes: Angular, React, Vue, Nodejs...",
+    "aboutMe1_en": "Software engineer for over 15 years, I am looking for front-end development projects based around modern javascript technologies as Angular, React, Vue, Nodejs...",
     "aboutMe2": "Passionné et rigoureux, j'apprecie le travail de qualité et dans les temps. Je m'adapte facilement à tout éco-système et j'aime travailler en équipe mais également en solo. Je recherche des missions sur ",
+    "aboutMe2_en": "Passionate and rigorous, I appreciate quality work and on time. I adapt easily to any eco-system and I like working in a team but also alone. I am looking for missions located in ",
     "aboutMe3": "Nantes et/ou en télétravail.",
+    "aboutMe3_en": "Nantes (France) and/or remote.",
 
-    "contacts": ["https://alban44.github.io/", "https://fr.linkedin.com/in/alban-alnot-freelance"],
+    "contacts": ["https://alban44.github.io", "https://fr.linkedin.com/in/alban-alnot-freelance"],
+    "contacts_en": ["https://alban44.github.io?en", "https://fr.linkedin.com/in/alban-alnot-freelance"],
 
     "trainings": [{
         "date": "2003 - 2008",
@@ -87,9 +94,9 @@ window.myCV = {
             {
                 "companyKey": "3e",
                 "capacity": "Création d'un back-office de gestion de tournées (planning, artistes, facturation...)",
-                "capacity_en": "??",
+                "capacity_en": "Creating a back-office for managing performances (calendar, artists, billing...)",
                 "duration": "2 ans - en cours",
-                "duration_en": "2 years",
+                "duration_en": "2 years - ongoing",
                 "nbDev": 1,
                 "practices": [
                     "Affinage du besoin, conception  full-stack de l'application",
@@ -97,16 +104,17 @@ window.myCV = {
                     "Implémentation severless (firestore / firebase / cloud functions)",
                 ],
                 "practices_en": [
-                    "??",
-                    "??"
+                    "Tweaking requirements, designing the full-stack application",
+                    "Importing existing data",
+                    "Severless implementation (firestore / firebase / cloud functions)",
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "linux", "spa", "es6", "responsive", "typescript"],
-                "keywords": ["spa", "responsive", "es6", "angular", "firebase", "firestore", "serverless"],
+                "keywords": ["spa", "responsive", "es6", "angular", "firebase", "firestore", "serverless", "remote"],
             },
             {
                 "companyKey": "logick",
                 "capacity": "Création d'applications web (billeterie)",
-                "capacity_en": "??",
+                "capacity_en": "Creating web application (ticketing)",
                 "duration": "3 ans 6 mois",
                 "duration_en": "3 years 6 months",
                 "nbDev": 1,
@@ -114,16 +122,15 @@ window.myCV = {
                     "Création de multiples applications web, maintenance et évolution\n (ventes en ligne, back-offices, interfaces de caisse)",
                 ],
                 "practices_en": [
-                    "??",
-                    "??"
+                    "Creating several web applications\n (online sales, back-office, office sale application)",
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "linux", "spa", "es6", "responsive", "typescript"],
-                "keywords": ["spa", "responsive", "es6", "angular"],
+                "keywords": ["spa", "responsive", "es6", "angular", "remote"],
             },
             {
                 "companyKey": "iepf",
                 "capacity": "Evolutions du site e-commerce",
-                "capacity_en": "??",
+                "capacity_en": "Maintaining the e-commerce website ",
                 "duration": "4 mois",
                 "duration_en": "4 months",
                 "nbDev": 0,
@@ -133,9 +140,9 @@ window.myCV = {
                     "Développements full-stack (back-end Nodejs avec Strapi)"
                 ],
                 "practices_en": [
-                    "??",
-                    "??",
-                    "??"
+                    "Designing and developing new features (e-commerce website + BO)",
+                    "Rebranding the graphic guidelines ",
+                    "Full-stack development with Vuejs + Nodejs (using Strapi)"
                 ],
                 "skillsKeys": ["js", "vuejs", "html5", "css3", "git", "linux", "materialdesign", "spa", "es6", "responsive", "nodejs"],
                 "keywords": ["spa", "responsive", "es6", "strapi", "nuxt", "vuejs"],
@@ -143,7 +150,7 @@ window.myCV = {
             {
                 "companyKey": "syd",
                 "capacity": "Création d'une PWA de gestion de tournées (agents de terrain)",
-                "capacity_en": "??",
+                "capacity_en": "Creating a PWA for managing agent's flows",
                 "duration": "5 mois",
                 "duration_en": "5 months",
                 "nbDev": 0,
@@ -153,9 +160,9 @@ window.myCV = {
                     "Rôle de tech-lead avec une équipe composée de 4 développeurs"
                 ],
                 "practices_en": [
-                    "??",
-                    "??",
-                    "??"
+                    "Creating the PWA from scratch",
+                    "Designing and developing new features",
+                    "Technical leader of the 4 developers team"
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
                 "keywords": ["spa", "responsive", "es6", "pwa", "firebase", "firestore", "angular", "serverless"],
@@ -163,7 +170,7 @@ window.myCV = {
             {
                 "companyKey": "airliquide",
                 "capacity": "Evolution d'une PWA d'aide à la vente",
-                "capacity_en": "??",
+                "capacity_en": "Maintaining the sales assistance's PWA",
                 "duration": "5 mois",
                 "duration_en": "5 months",
                 "nbDev": 0,
@@ -172,8 +179,8 @@ window.myCV = {
                     "Conception et développement de nouveaux composants front"
                 ],
                 "practices_en": [
-                    "??",
-                    "??"
+                    "Fixing bugs and implementing new feature (front and back-end)",
+                    "Designing and developing new features",
                 ],
                 "skillsKeys": ["js", "angular2", "vuejs", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript", "nodejs"],
                 "keywords": ["spa", "responsive", "es6", "materialdesign", "pwa", "en", "docker", "angular"],
@@ -181,7 +188,7 @@ window.myCV = {
             {
                 "companyKey": "enedis",
                 "capacity": "Création d'une application web de visualisation cartographique",
-                "capacity_en": "Creation of the new webapp??",
+                "capacity_en": "Creating the webapp",
                 "duration": "4 mois",
                 "duration_en": "4 months",
                 "nbDev": 0,
@@ -191,10 +198,9 @@ window.myCV = {
                     "Affinage du besoin, force de proposition UI/UX",
                 ],
                 "practices_en": [
-                    "??",
-                    "??",
-                    "??",
-                    "??"
+                    "Creating and designing the web application",
+                    "Using ArcGis for visualizing maps on the browser",
+                    "Tweaking requirements, proactiveness for the UI/UX",
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "windows", "materialdesign", "spa", "es6", "responsive", "typescript"],
                 "keywords": ["spa", "responsive", "es6", "materialdesign", "docker", "angular"],
@@ -208,12 +214,12 @@ window.myCV = {
         "endDate": "jan. 2019",
         "duration": "1 an",
         "duration_en": "1 year",
-        "capacity": "Développeur et responsable front-end (js) [remote]",
-        "capacity_en": "Web software engineer - head of front-end team (remote)",
+        "capacity": "Développeur et responsable front-end (js)",
+        "capacity_en": "Web software engineer - head of front-end team",
         "missions": [{
             "companyKey": "",
             "capacity": "Création d'une application web et d'un back-office",
-            "capacity_en": "Creation of the new webapp from scratch",
+            "capacity_en": "Creating the webapp and back-office",
             "duration": "1 an",
             "duration_en": "1 year",
             "nbDev": 4,
@@ -224,14 +230,13 @@ window.myCV = {
                 "Création et maintien d'une suite de tests d'intégration"
             ],
             "practices_en": [
-                "Implementation of the new webapp with the appropriate architecture and tools",
-                "Working collaboratively with the design and back-end team",
-                "Management of the existing architecture migration to the new one",
-                "Creation of a continuous integration platform (CI/CD)",
-                "Creation and maintenance of an automated end to end test suite"
+                "Implementating the webapp with the appropriate architecture and tools",
+                "Management of the existing architecture, migration to the new one",
+                "Creating a continuous integration platform (CI/CD)",
+                "Creating and maintaining an automated end to end test suite"
             ],
             "skillsKeys": ["js", "angular2", "html5", "css3", "sass", "git", "webstorm", "gitlab", "firebase", "grpc", "materialdesign", "spa", "es6", "responsive", "linux", "typescript"],
-            "keywords": ["spa", "responsive", "es6", "materialdesign", "grpc", "firebase", "gitlab"],
+            "keywords": ["spa", "responsive", "es6", "materialdesign", "grpc", "firebase", "gitlab", "remote"],
 
         }],
 
@@ -254,13 +259,13 @@ window.myCV = {
             "practices": ["Prise en main des outils de cartographie (leaflet, geoserver/geotools, shapefile, Web Map Service)", "Conception, développement et tests du composant", "Intégration du composant dans l'application finale et branchement des API"],
             "skillsKeys": ["js", "angular2", "html5", "css3", "git", "webstorm", "geoserver", "vanillajs", "es6", "leaflet", "windows", "spa"],
             "keywords": ["spa", "es6", "vanillajs", "leaflet", "geoserver", "angular"],
-            "capacity_en": "Creation of a data visualization/modification cartography component",
+            "capacity_en": "Creating a data visualization/modification cartography component",
             "duration_en": "4 months",
-            "practices_en": ["Getting started with cartographic tools (leaflet, geoserver/geotools, shapefile, Web Map Service)", "Conception, development and tests of the component", "Integration of the component into the web application, connection of the API"]
+            "practices_en": ["Getting started with cartographic tools (leaflet, geoserver/geotools, shapefile, Web Map Service)", "Designing, developing and testing the component", "Integrating the component into the web application, connecting the API"]
         }, {
             "companyKey": "akeneo",
             "capacity": "Préparation à la migration d'une application web legacy vers une Single Page Application",
-            "capacity_en": "Preparation of the migration of a legacy web application to a Single Page Application",
+            "capacity_en": "Preparating the migration of a legacy web application to a Single Page Application",
             "duration": "3 mois",
             "duration_en": "3 months",
             "practices": [
@@ -268,7 +273,7 @@ window.myCV = {
                 "Création d'API REST et de composants front-end via BackBoneJS"
             ],
             "practices_en": [
-                "Refactoring of the open-source application",
+                "Refactoring the open-source application",
                 "Creation of REST API and front-end components with BackBoneJS"
             ],
             "skillsKeys": ["js", "css3", "webpack", "git", "webstorm", "linux", "selenium", "php5", "spa", "en"],
@@ -276,7 +281,7 @@ window.myCV = {
         }, {
             "companyKey": "emotic",
             "capacity": "Conception et développement d’une application (tablette/web) d’aide à la vente",
-            "capacity_en": "Design and development of a sales assistance application (tablet/web)",
+            "capacity_en": "Designing and developing a sales assistance application (tablet/web)",
             "duration": "2 mois",
             "duration_en": "2 months",
             "nbDev": 4,
@@ -285,8 +290,8 @@ window.myCV = {
                 "Conception et développement de nouveaux composants/services"
             ],
             "practices_en": [
-                "Creation of new features",
-                "Design and development of new components/services"
+                "Creating new features",
+                "Designing and developing new components/services"
             ],
             "skillsKeys": ["js", "angular2", "html5", "css3", "sass", "webpack", "git", "webstorm", "responsive", "windows", "ionic", "typescript", "spa", "es6"],
             "keywords": ["spa", "responsive", "es6", "angular"]
@@ -302,14 +307,15 @@ window.myCV = {
             ],
             "skillsKeys": ["js", "angularjs", "nodejs", "html5", "css3", "less", "grunt", "git", "webstorm", "linux", "spa", "es6"],
             "keywords": [], //["spa", "es6"],
-            "capacity_en": "Creation of a web application",
+            "capacity_en": "Creating a web application",
             "duration_en": "3 months",
             "practices_en": ["Proof of concept of the application",
-                "Implementation of the new webapp with the appropriate architecture and tools", "Creation of unit and integration tests (Karma, Jasmine)"]
+                "Implementing the new webapp with the appropriate architecture and tools",
+                "Creating unit and integration tests (Karma, Jasmine)"]
         }, {
             "companyKey": "wiztivi",
             "capacity": "Création et maintenance d'interfaces pour box TV",
-            "capacity_en": "Creation and maintenance of a UI for TV box",
+            "capacity_en": "Creating and maintaining the UI of a TV box",
             "duration": "2.5 ans",
             "duration_en": "2.5 years",
             "nbDev": 5,
@@ -322,14 +328,12 @@ window.myCV = {
                 "Développement d'application native hybride responsive (mobile/tablette/pc)",
             ],
             "practices_en": [
-                "Creation of the application foundation and tooling",
-                "Design and development of many features",
-                "Creation of transversal components",
-                "Developments, tests and debugging on TV box (on-board applications)",
+                "Creating and tooling the application",
+                "Designing and developing many features",
+                 "Developing, testing and debugging on TV box (on-board applications)",
                 "Remote international development team",
                 "Writing unit and functional tests (karma)",
-                "Responsive development of hybrid application (mobile/tablet/pc)",
-                "Packaging of the application for iOS, Android and PC"
+                "Responsive development of native hybrid application (mobile/tablet/pc)",
             ],
             "skillsKeys": ["js", "nodejs", "html5", "css3", "less", "grunt", "git", "svn", "webstorm", "linux", "dojo", "canvas", "spa", "en", "es6", "cordova"],
             "keywords": ["en", "spa", "responsive", "es6", "cordova"],
@@ -350,9 +354,9 @@ window.myCV = {
         "missions": [{
             "companyKey": "",
             "capacity": "Maintenance et évolution du site internet et de l'ESB",
-            "capacity_en": "??",
-            "duration": "1 an et demi",
-            "duration_en": "1 year and 6 months",
+            "capacity_en": "Maintaining the web site and ESB",
+            "duration": "1.5 an",
+            "duration_en": "1.5 year",
             "nbDev": 6,
             "practices": [
                 "Méthodologie SCRUM avec équipe scindée à l'international",
@@ -362,12 +366,10 @@ window.myCV = {
             ],
             "practices_en": [
                 "SCRUM methodology with worldwide team",
-                "Proof of concept of Windows applications",
-                "Maintenance and new features of the web site",
-                "Design and creation of WebServices",
-                "Implementation of an automatic platform of benchmark",
-                "Development and maintenance of the web site automated tests",
-                "Writing units and integration tests"
+                "Creating new features and fixing bugs",
+                "Designing and creating WebServices",
+                "Implementing an automatic platform of benchmark",
+                "Developing and fixing the web site automated tests",
             ],
             "skillsKeys": ["js", "cs", "vs", "jquery", "windows", "selenium", "msqlserver", "powershell", "asp-net", "en"],
             "keywords": []
@@ -379,7 +381,7 @@ window.myCV = {
         "endDate": "nov. 2011",
         "duration": "3 ans 4 mois",
         "duration_en": "3 years 4 months",
-        "capacity": "Développeur full-stack (C#)",
+        "capacity": "Développeur full-stack (C#)",
         "type": "en CDS",
         "missions": [{
             "companyKey": "sncf",
@@ -389,9 +391,10 @@ window.myCV = {
             "practices": ["Conception du modèle de données", "Conception et implémentation du site web de saisie et du back-end", "Mise en place d'un flux RSS"],
             "skillsKeys": ["js", "cs", "css3", "vs", "windows", "clearcase", "jquery", "asp-net"],
             "keywords": [],
-            "capacity_en": "Design of a back-office website",
+            "capacity_en": "Designing a back-office website",
             "duration_en": "3 months",
-            "practices_en": ["Design of the data model", "Design and development of the front-end website and the back-end", "Creation of RSS feeds"]
+            "practices_en": ["Designing the data model",
+                "Designing and developing the front-end website and the back-end", "Creating a RSS feed"]
         }, {
             "companyKey": "anr",
             "capacity": "Maintenance et évolution du site Internet",
@@ -400,39 +403,43 @@ window.myCV = {
             "practices": ["Conception et développement d'évolutions majeures, correction d'anomalies", "Création d'outils d'automatisation (traitement en GED, déploiement..)"],
             "skillsKeys": ["js", "cs", "svn", "vs", "windows", "msqlserver", "asp-net"],
             "keywords": [],
-            "capacity_en": "Maintenance of the website",
+            "capacity_en": "Maintaining the website",
             "duration_en": "7 months",
-            "practices_en": ["Design and development of main features, bug fixing", "Creation of automation tools (processing in DMS, deployment...)", "Tests plans redaction and execution"]
+            "practices_en": ["Designing and developing main features, bug fixing",
+                "Creating an automation tools (processing in DMS, deployment...)"]
         }, {
             "companyKey": "sncf",
             "capacity": "Maintenance et évolution de l'application de vente au guichet",
             "duration": "2.5 ans",
-            "duration_en": "2 years and 6 months",
+            "duration_en": "2.5 years",
             "nbDev": 2,
             "practices": ["Conception, chiffrage et développement d'évolutions majeures", "Maintenance d'un outil de test automatisé de l'application", "Conception et création de WebService",
                 "Accompagnement de développeurs lors de leur montée en compétences"
             ],
             "skillsKeys": ["cs", "vs", "windows", "msqlserver", "clearcase"],
             "keywords": [],
-            "capacity_en": "Maintenance of the train office sale application",
-            "practices_en": ["Design, evaluation and development of main features" , "Bug fixing (thick client)", "Application automation test tool's maintenance",
-                "WebServices design and creation",  "Mentoring of new developers during their integrations"]
+            "capacity_en": "Maintaining the train office sale application",
+            "practices_en": ["Designing, evaluating and developing the main features" ,
+                "Application automation test tool's maintenance",
+                "WebServices design and creation",  "Mentoring new developers during their integrations"]
         }],
         "startDate_en": "augu. 2008",
-        "capacity_en": "Software engineer (C#)"
+        "capacity_en": "Software full-stack engineer(C#)"
     }],
     "personalStuff": [
         {
             "title": "Entre 2 Chaises",
             "desc": "Co-fondateur et responsable technique de la maison d'édition 'Entre 2 Chaises' créée en 2023.<br>Édition du premier jeu <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a>.",
+            "desc_en": "Co-founder and CTO of the board game publisher 'Entre 2 Chaises' created in 2023.<br>Publishing the first game <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a>.",
             "lines": [{
                 "date": "2023",
                 "link": {
                     "url" : "https://e2c-jeux.fr",
-                    "label": "Site web"
+                    "label": "Site web",
+                    "label_en": "Web site"
                 },
                 "label": "Création du site web.",
-                "label_en": "",
+                "label_en": "Creating the website",
                 "skills": ["js", "html5", "css3", "git", "vuejs"]
             },
                 {
@@ -441,8 +448,8 @@ window.myCV = {
                         "url" : "https://faux-raccords.e2c-jeux.fr",
                         "label": "Application 'Faux Raccords'"
                     },
-                    "label": "Application web permettant de générer la vidéo bonus d'une partie (ffmpeg). Reconnaissance de cartes (tensorflow).",
-                    "label_en": "",
+                    "label": "Création de l'application web permettant de générer la vidéo bonus d'une partie (ffmpeg). Reconnaissance de cartes (tensorflow).",
+                    "label_en": "Creating the application that is generating a video bonus after playing the game (using ffmpeg) + cards recognition (using tensorflow)",
                     "skills": ["js", "html5", "css3", "git", "vuejs", "nodejs"]
                 }],
             "skillsKeys": ["js", "react", "angularjs", "vuejs", "nodejs", "cs", "html5", "css3", "less", "webpack", "webstorm", "websocket", "bootstrap"],
@@ -457,17 +464,17 @@ window.myCV = {
                     "url": "https://movies-browser.com",
                     "label": "Moteur de recherche de films",
                     "url_en": "https://movies-browser.com",
-                    "label_en": "???",
+                    "label_en": "Movies browser",
                 },
                 "skills": ["vuejs", "js", "html5", "css3", "git", "responsive"],
                 "label": "Utilisation d'elasticsearch pour le moteur de recherche + express en back-end, nuxt, SSR, optimisations SEO",
-                "label_en": "???"
+                "label_en": "Using elasticsearch, nodejs, express, nuxt, SSR and SEO optimization"
             }, {
                 "date": "2019",
                 "link": {
                     "url": "https://alban44.github.io",
                     "label": "Mon CV",
-                    "url_en": "",
+                    "url_en": "https://alban44.github.io?en",
                     "label_en": "My resume online",
                 },
                 "skills": ["vuejs", "js", "html5", "css3", "git"],
@@ -480,7 +487,7 @@ window.myCV = {
                     "label": "Math Trade"
                 },
                 "label": "Site web d’échange circulaire de jeux de plateau (front-end React/Redux et back-end firebase)",
-                "label_en": "Creation of a boardgame trade web site (React/Redux + firebase as back-end)",
+                "label_en": "Creating a boardgame trade web site (React/Redux + firebase as back-end)",
                 "skills": ["react", "js", "html5", "css3", "git"]
             },
 
@@ -499,7 +506,7 @@ window.myCV = {
                     "label": "Virus Killer"
                 },
                 "label": "multi-joueur temps réel, inspiré de 'Docteur Mario'",
-                "label_en": "real time multiplayer, inspired by 'Doctor Mario'",
+                "label_en": "Real time multiplayer, inspired by 'Doctor Mario'",
                 "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
             },
                 {
@@ -527,8 +534,8 @@ window.myCV = {
                         "url": "https://html5-games-ff.onrender.com/",
                         "label": "Factory fun"
                     },
-                    "label": "Jeu multi-joueur temps réel, inspiré du jeu de plateau 'Factory fun'",
-                    "label_en": "Online multiplayer game (real time), inspired by the board game 'Factory fun'",
+                    "label": "Jeu multi-joueur temps réel, adaptation du jeu de plateau 'Factory fun'",
+                    "label_en": "Online multiplayer game (real time), adaptation of the board game 'Factory fun'",
                     "skills": ["js", "nodejs", "html5", "css3", "git", "mongodb", "websocket", "canvas"]
                 },
             ].reverse(),
@@ -579,12 +586,12 @@ window.myCV = {
         },
         "typescript": {
             "name": "Typescript",
-            "url": "https://webpack.github.io//",
+            "url": "https://webpack.github.io/",
             "description": "Webpack is a flexible module bundler."
         },
         "webpack": {
             "name": "Webpack",
-            "url": "https://webpack.github.io//",
+            "url": "https://webpack.github.io/",
             "description": "Webpack is a flexible module bundler."
         },
         "angular2": {
@@ -842,7 +849,8 @@ window.myCV = {
     }, {
         "name": "js",
         "mark": "93",
-        "xp": "9 ans" // TODO in english...
+        "xp": "9 ans",
+        "xp_en": "9 years",
     }, {
         "name": "cs",
         "categorie": "l",
@@ -851,17 +859,20 @@ window.myCV = {
         "name": "typescript",
         "categorie": "l",
         "mark": "85",
-        "xp": "6 ans"
+        "xp": "6 ans",
+        "xp_en": "6 years",
     }, {
         "name": "css3",
         "categorie": "l",
         "mark": "85",
-        "xp": "9 ans"
+        "xp": "9 ans",
+        "xp_en": "9 years",
     }, {
         "name": "html5",
         "categorie": "l",
         "mark": "85",
-        "xp": "9 ans"
+        "xp": "9 ans",
+        "xp_en": "9 years",
     }, {
         "name": "less",
         "categorie": "l",
@@ -899,7 +910,8 @@ window.myCV = {
     }, {
         "name": "git",
         "mark": "85",
-        "xp": "9 ans"
+        "xp": "9 ans",
+        "xp_en": "9 years",
     }, {
         "name": "clearcase",
         "mark": "40",
@@ -918,7 +930,8 @@ window.myCV = {
     }, {
         "name": "nodejs",
         "mark": "70",
-        "xp": "3 ans"
+        "xp": "3 ans",
+        "xp_en": "3 years",
     }, {
         "name": "angularjs",
         "mark": "60",
@@ -927,15 +940,18 @@ window.myCV = {
         "name": "angular2",
         "mark": "85",
         "flag": "",
-        "xp": "6 ans"
+        "xp": "6 ans",
+        "xp_en": "6 years",
     }, {
         "name": "react",
         "mark": "40",
-        "xp": "1 an"
+        "xp": "1 an",
+        "xp_en": "1 year",
     }, {
         "name": "vuejs",
         "mark": "65",
-        "xp": "2 ans"
+        "xp": "2 ans",
+        "xp_en": "2 years",
     }, {
         "name": "dojo",
         "mark": "60",
