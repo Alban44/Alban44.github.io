@@ -1,6 +1,6 @@
 window.myCV = {
     "orderedKeywords": ["en", "responsive", "websocket", "firebase", "firestore", "opensource",
-        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react", "serverless", "remote"
+        "materialdesign", "leaflet", "geoserver", "grpc", "gitlab", "pwa", "cordova", "strapi", "nuxt", "angular", "vuejs", "react", "serverless", "remote", "full-stack"
     ],
     "keywords": {
         "en": "international",
@@ -27,7 +27,8 @@ window.myCV = {
         "react": "react",
         "vuejs": "vuejs",
         "serverless": "serverless",
-        "remote": "remote"
+        "remote": "remote",
+        "full-stack": "full-stack"
     },
     "ongoing": "En cours",
     "ongoing_en": "ongoing",
@@ -92,24 +93,44 @@ window.myCV = {
         "capacity_en": "Web front-end developer / Tech-lead (js)",
         "missions": [
             {
+                "companyKey": "bga",
+                "capacity": "Adaptation de jeux de plateaux",
+                "capacity_en": "Adapting board games",
+                "duration": "en cours",
+                "duration_en": "ongoing",
+                "nbDev": 1,
+                "practices": [
+                    "Découpe des assets, création du layout, animation",
+                    "Implémentation en mode multi-joueurs avec le framework BGA",
+                    "Jeux adaptés: Unrest, Faux-Raccords et Trailblazers",
+                ],
+                "practices_en": [
+                    "Importing assets, layout creation and animations",
+                    "Implementating the multi-player mode with BGA framework",
+                    "Game implemented: Unrest, Faux-Raccords and Trailblazers",
+                ],
+                "skillsKeys": ["js", "vuejs", "html5", "css3", "git", "backend"],
+                "keywords": ["spa", "responsive", "full-stack", "vuejs"],
+            },
+            {
                 "companyKey": "3e",
-                "capacity": "Création d'un back-office de gestion de tournées (planning, artistes, facturation...)",
-                "capacity_en": "Creating a back-office for managing performances (calendar, artists, billing...)",
-                "duration": "2 ans - en cours",
-                "duration_en": "2 years - ongoing",
+                "capacity": "Création d'un back-office de gestion de tournées (planning, facturation, contrats...)",
+                "capacity_en": "Creating a back-office for managing performances (calendar, billing, contracts...)",
+                "duration": "en cours",
+                "duration_en": "ongoing",
                 "nbDev": 1,
                 "practices": [
                     "Affinage du besoin, conception  full-stack de l'application",
-                    "Import des données existantes",
+                    "PWA, mode offline, gestion des droits",
                     "Implémentation severless (firestore / firebase / cloud functions)",
                 ],
                 "practices_en": [
                     "Tweaking requirements, designing the full-stack application",
-                    "Importing existing data",
+                    "PWA, offline mode, admin and external accounts/rights",
                     "Severless implementation (firestore / firebase / cloud functions)",
                 ],
                 "skillsKeys": ["js", "angular2", "html5", "css3", "git", "linux", "spa", "es6", "responsive", "typescript"],
-                "keywords": ["spa", "responsive", "es6", "angular", "firebase", "firestore", "serverless", "remote"],
+                "keywords": ["spa", "responsive", "es6", "angular", "firebase", "firestore", "serverless", "remote", "full-stack"],
             },
             {
                 "companyKey": "logick",
@@ -136,12 +157,10 @@ window.myCV = {
                 "nbDev": 0,
                 "practices": [
                     "Conception et développement de nouvelles fonctionnalités (site vitrine + BO)",
-                    "Refonte de la charte graphique",
                     "Développements full-stack (back-end Nodejs avec Strapi)"
                 ],
                 "practices_en": [
                     "Designing and developing new features (e-commerce website + BO)",
-                    "Rebranding the graphic guidelines ",
                     "Full-stack development with Vuejs + Nodejs (using Strapi)"
                 ],
                 "skillsKeys": ["js", "vuejs", "html5", "css3", "git", "linux", "materialdesign", "spa", "es6", "responsive", "nodejs"],
@@ -330,7 +349,7 @@ window.myCV = {
             "practices_en": [
                 "Creating and tooling the application",
                 "Designing and developing many features",
-                 "Developing, testing and debugging on TV box (on-board applications)",
+                "Developing, testing and debugging on TV box (on-board applications)",
                 "Remote international development team",
                 "Writing unit and functional tests (karma)",
                 "Responsive development of native hybrid application (mobile/tablet/pc)",
@@ -388,13 +407,14 @@ window.myCV = {
             "capacity": "Création d'un back-office de messaging",
             "duration": "3 mois",
             "nbDev": 2,
-            "practices": ["Conception du modèle de données", "Conception et implémentation du site web de saisie et du back-end", "Mise en place d'un flux RSS"],
+            "practices": ["Conception du modèle de données",
+                "Conception et implémentation du site web de saisie et du back-end"],
             "skillsKeys": ["js", "cs", "css3", "vs", "windows", "clearcase", "jquery", "asp-net"],
             "keywords": [],
             "capacity_en": "Designing a back-office website",
             "duration_en": "3 months",
             "practices_en": ["Designing the data model",
-                "Designing and developing the front-end website and the back-end", "Creating a RSS feed"]
+                "Designing and developing the front-end website and the back-end"]
         }, {
             "companyKey": "anr",
             "capacity": "Maintenance et évolution du site Internet",
@@ -456,46 +476,46 @@ window.myCV = {
             "title_en": "Entre 2 Chaises"
         },
         {
-        "title": "Sites web",
-        "lines": [
-            {
-                "date": "2022",
-                "link": {
-                    "url": "https://movies-browser.com",
-                    "label": "Moteur de recherche de films",
-                    "url_en": "https://movies-browser.com",
-                    "label_en": "Movies browser",
+            "title": "Sites web",
+            "lines": [
+                {
+                    "date": "2022",
+                    "link": {
+                        // "url": "https://movies-browser.com",
+                        "label": "Moteur de recherche de films",
+                        // "url_en": "https://movies-browser.com",
+                        "label_en": "Movies browser",
+                    },
+                    "skills": ["vuejs", "js", "html5", "css3", "git", "responsive"],
+                    "label": "Utilisation d'elasticsearch pour le moteur de recherche + express en back-end, nuxt, SSR, optimisations SEO",
+                    "label_en": "Using elasticsearch, nodejs, express, nuxt, SSR and SEO optimization"
+                }, {
+                    "date": "2019",
+                    "link": {
+                        "url": "https://alban44.github.io",
+                        "label": "Mon CV",
+                        "url_en": "https://alban44.github.io?en",
+                        "label_en": "My resume online",
+                    },
+                    "skills": ["vuejs", "js", "html5", "css3", "git"],
+                    "label_en": "Using AngularJs (french/english)"
                 },
-                "skills": ["vuejs", "js", "html5", "css3", "git", "responsive"],
-                "label": "Utilisation d'elasticsearch pour le moteur de recherche + express en back-end, nuxt, SSR, optimisations SEO",
-                "label_en": "Using elasticsearch, nodejs, express, nuxt, SSR and SEO optimization"
-            }, {
-                "date": "2019",
-                "link": {
-                    "url": "https://alban44.github.io",
-                    "label": "Mon CV",
-                    "url_en": "https://alban44.github.io?en",
-                    "label_en": "My resume online",
+                {
+                    "date": "2016",
+                    "link": {
+                        "url": "",
+                        "label": "Math Trade"
+                    },
+                    "label": "Site web d’échange circulaire de jeux de plateau (front-end React/Redux et back-end firebase)",
+                    "label_en": "Creating a boardgame trade web site (React/Redux + firebase as back-end)",
+                    "skills": ["react", "js", "html5", "css3", "git"]
                 },
-                "skills": ["vuejs", "js", "html5", "css3", "git"],
-                "label_en": "Using AngularJs (french/english)"
-            },
-            {
-                "date": "2016",
-                "link": {
-                    "url": "",
-                    "label": "Math Trade"
-                },
-                "label": "Site web d’échange circulaire de jeux de plateau (front-end React/Redux et back-end firebase)",
-                "label_en": "Creating a boardgame trade web site (React/Redux + firebase as back-end)",
-                "skills": ["react", "js", "html5", "css3", "git"]
-            },
 
-        ],
-        // "skillsKeys": ["js", "react", "angularjs", "html5", "css3", "webpack", "webstorm", "materialdesign", "firebase", "vanillajs", "spa", "redux"],
-        "keywords": ["spa", "vanillajs", "redux", "firebase", "materialdesign"],
-        "title_en": "Web sites"
-    },
+            ],
+            // "skillsKeys": ["js", "react", "angularjs", "html5", "css3", "webpack", "webstorm", "materialdesign", "firebase", "vanillajs", "spa", "redux"],
+            "keywords": ["spa", "vanillajs", "redux", "firebase", "materialdesign"],
+            "title_en": "Web sites"
+        },
 
         {
             "title": "Jeux",
@@ -732,6 +752,12 @@ window.myCV = {
             "name": "Bootstrap",
             "url": "http://getbootstrap.com/",
             "description": "Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web."
+        },
+        "bga": {
+            "name": "Board Game Arena",
+            "url": "https://boardgamearena.com/",
+            "description": "Board Game Arena est une plateforme permettant de jouer en ligne à une sélection de jeux de plateau et de cartes, directement depuis son navigateur, en simultané ou en « tour par tour ».",
+            "url_en": "https://boardgamearena.com/",
         },
         "eurofins": {
             "name": "Eurofins",
