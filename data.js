@@ -138,6 +138,7 @@ window.myCV = {
 		{
 			"date": "2003 - 2008",
 			"title": "École nationale d’ingénieurs de Brest",
+			"logo": "enib",
 			"content": "Diplôme d’ingénieur en informatique",
 			"content_en": "Graduate School of Computer Engineer"
 		}
@@ -751,8 +752,8 @@ window.myCV = {
 	"personalStuff": [
 		{
 			"title": "Entre 2 Chaises",
-			"desc": "<b>Co-fondateur et responsable technique</b><br>maison d'édition <a target='_blank' href='https://e2c-jeux.fr/'>Entre 2 Chaises</a>\n (créée en 2023)\n <ul class=\"font-italic\"><li>Édition du jeu <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a> - <i>2023</i></li>\n <li>Campagne participative et édition du jeu <a target='_blank' href='https://e2c-jeux.fr/streets-of-tokyo'>Streets of Tokyo</a> - <i>2024</i></li></ul>",
-			"desc_en": "<b>Co-founder and CTO</b> of the board game publisher <a target='_blank' href='https://e2c-jeux.fr/'>Entre 2 Chaises</a>\n (created in 2023)\n <ul class=\"font-italic\"><li>Publishing the game <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a> - <i>2023</i></li>\n <li>Crowd founding campaign for the game <a target='_blank' href='https://e2c-jeux.fr/streets-of-tokyo'>Streets of Tokyo</a> - <i>2024</i></li></ul>",
+			"desc": "<b>Co-fondateur et responsable technique</b><br>maison d'édition <a target='_blank' href='https://e2c-jeux.fr/'>Entre 2 Chaises</a> <span class=\"aside\">(créée en 2023)</span>\n <ul><li>Édition du jeu <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a> <span class=\"date\">- 2023</span></li>\n <li>Campagne participative et édition du jeu <a target='_blank' href='https://e2c-jeux.fr/streets-of-tokyo'>Streets of Tokyo</a> <span class=\"date\">- 2024</span></li></ul>",
+			"desc_en": "<b>Co-founder and CTO</b> of the board game publisher <a target='_blank' href='https://e2c-jeux.fr/'>Entre 2 Chaises</a> <span class=\"aside\">(created in 2023)</span>\n <ul><li>Publishing the game <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a> <span class=\"date\">- 2023</span></li>\n <li>Crowd founding campaign for the game <a target='_blank' href='https://e2c-jeux.fr/streets-of-tokyo'>Streets of Tokyo</a> <span class=\"date\">- 2024</span></li></ul>",
 			"lines": [
 				{
 					"date": "2023",
@@ -775,8 +776,8 @@ window.myCV = {
 						"url": "https://faux-raccords.e2c-jeux.fr",
 						"label": "Application 'Faux Raccords'"
 					},
-					"label": "Création de l'application web permettant de générer la vidéo bonus d'une partie (FFmpeg).",
-					"label_en": "Creating the application that is generating a video bonus after playing the game (using ffmpeg) + cards recognition (using tensorflow)",
+					"label": "Création de l'application web permettant de générer la vidéo bonus d'une partie",
+					"label_en": "Creating the application that is generating a video bonus after playing the game + cards recognition (using tensorflow)",
 					"skills": [
 						"js",
 						"html5",
@@ -845,7 +846,7 @@ window.myCV = {
 						"url": "",
 						"label": "Math Trade"
 					},
-					"label": "Site web d’échange circulaire de jeux de plateau (front-end React/Redux et back-end Firebase)",
+					"label": "Site web d’échange circulaire de jeux de plateau (front-end React et back-end Firebase)",
 					"label_en": "Creating a boardgame trade web site (React/Redux + firebase as back-end)",
 					"skills": [
 						"react",
