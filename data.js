@@ -63,7 +63,7 @@ window.myCV = {
 	"since": "depuis",
 	"since_en": "since",
 	"download": "Télécharger au format PDF",
-	"download_en": "Download to pdf format",
+	"download_en": "Download as PDF",
 	"title": "Développeur full-stack JavaScript freelance · Angular · Vue · Node.js",
 	"title_en": "Freelance full-stack JavaScript developer · Angular · Vue · Node.js",
 	"technicalSkills": "Compétences techniques",
@@ -81,25 +81,25 @@ window.myCV = {
 			"title": "Autonomie",
 			"title_en": "Autonomy",
 			"desc": "freelance depuis 2019, projets en solo",
-			"desc_en": "freelance since 2019, solo end-to-end projects"
+			"desc_en": "freelance since 2019, solo projects"
 		},
 		{
 			"title": "Écoute du besoin",
-			"title_en": "Listening to needs",
+			"title_en": "Understanding needs",
 			"desc": "affinage métier, retours terrain, UI/UX",
-			"desc_en": "business needs, field feedback, UI/UX"
+			"desc_en": "requirements refinement, field feedback, UI/UX"
 		},
 		{
 			"title": "Adaptabilité",
 			"title_en": "Adaptability",
 			"desc": "du C# à Angular et Vue, cartographie, box TV",
-			"desc_en": "from C# to Angular, Vue and React"
+			"desc_en": "from C# to Angular and Vue, mapping, TV boxes"
 		},
 		{
 			"title": "Rigueur",
 			"title_en": "Rigor",
 			"desc": "tests automatisés, performances",
-			"desc_en": "automated tests, fewer regressions"
+			"desc_en": "automated tests, performance"
 		},
 		{
 			"title": "Leadership technique",
@@ -111,15 +111,15 @@ window.myCV = {
 			"title": "Veille et IA",
 			"title_en": "Tech watch & AI",
 			"desc": "dév. assisté par IA (Claude Code, skills)",
-			"desc_en": "daily AI-assisted development (Claude Code, skills)"
+			"desc_en": "AI-assisted dev (Claude Code, skills)"
 		}
 	],
 	"soloDevLabel": "",
-	"soloDevLabel_en": "solo dev",
+	"soloDevLabel_en": "",
 	"teamDevLabel": "devs",
 	"teamDevLabel_en": "devs",
 	"trainingLabel": "Formation",
-	"trainingLabel_en": "Training",
+	"trainingLabel_en": "Education",
 	"persoLabel": "Projets personnels",
 	"persoLabel_en": "Personal projects",
 	"aboutMe": "À propos",
@@ -130,9 +130,9 @@ window.myCV = {
 	"name": "Alban Alnot",
 	"mail": "......@gmail.com",
 	"aboutMe1": "Un outil métier à créer de zéro, une application à fiabiliser, une équipe front à structurer ? Développeur depuis 2008 et freelance depuis 2019, je conçois et développe des applications web <b>Angular, Vue et Node.js</b>, de l'architecture jusqu'à la mise en production et la maintenance.<br>\nLe résultat : des applications livrées dans les temps, maintenables, et pensées pour ceux qui s'en servent.<br>\nDepuis 2026, j'intègre l'IA (<b>Claude Code</b>, skills, agents) à mon quotidien pour livrer plus vite, sans rien céder sur la qualité du code.",
-	"aboutMe1_en": "A business tool to build from scratch, an application to make reliable, a front-end team to structure? Developer since 2008 and freelancer since 2019, I design and build <b>Angular, Vue and Node.js</b> web applications, from architecture to production.<br>\nThe result: applications delivered on time, maintainable, and actually used by their users.<br>\nSince 2026, I have been using AI (<b>Claude Code</b>, skills, agents) every day to deliver faster, without compromising on code quality.",
-	"contacts_intro": "📍 Rezé (Nantes) · sur site ou full remote<br>🔗 <a href=\"https://fr.linkedin.com/in/alban-alnot-freelance\" target=\"_blank\">linkedin.com/in/alban-alnot-freelance</a><br>🔗 <a href=\"https://www.malt.fr/profile/albanalnot\" target=\"_blank\">malt.fr/profile/albanalnot</a><br>🔗 <a href=\"https://alban44.github.io\" target=\"_blank\">alban44.github.io</a>",
-	"contacts_intro_en": "📍 Nantes (France) · on site or full remote<br>🔗 <a href=\"https://fr.linkedin.com/in/alban-alnot-freelance\" target=\"_blank\">linkedin.com/in/alban-alnot-freelance</a><br>🔗 <a href=\"https://www.malt.fr/profile/albanalnot\" target=\"_blank\">malt.fr/profile/albanalnot</a><br>🔗 <a href=\"https://alban44.github.io?en\" target=\"_blank\">alban44.github.io?en</a>",
+	"aboutMe1_en": "A business tool to build from scratch, an application to make reliable, a front-end team to structure? Developer since 2008 and freelancer since 2019, I design and build <b>Angular, Vue and Node.js</b> web applications, from architecture to production and maintenance.<br>\nThe result: applications delivered on time, maintainable, and designed for the people who use them.<br>\nSince 2026, I have been bringing AI (<b>Claude Code</b>, skills, agents) into my daily work to deliver faster, without compromising on code quality.",
+	"contacts_intro": "📍 Nantes · sur site ou full remote<br>🔗 <a href=\"https://fr.linkedin.com/in/alban-alnot-freelance\" target=\"_blank\">linkedin.com/in/alban-alnot-freelance</a><br>🔗 <a href=\"https://www.malt.fr/profile/albanalnot\" target=\"_blank\">malt.fr/profile/albanalnot</a><br>🔗 <a href=\"https://alban44.github.io\" target=\"_blank\">alban44.github.io</a>",
+	"contacts_intro_en": "📍 Nantes, France · on site or full remote<br>🔗 <a href=\"https://fr.linkedin.com/in/alban-alnot-freelance\" target=\"_blank\">linkedin.com/in/alban-alnot-freelance</a><br>🔗 <a href=\"https://www.malt.fr/profile/albanalnot\" target=\"_blank\">malt.fr/profile/albanalnot</a><br>🔗 <a href=\"https://alban44.github.io?en\" target=\"_blank\">alban44.github.io?en</a>",
 	"contacts": [],
 	"trainings": [
 		{
@@ -140,11 +140,11 @@ window.myCV = {
 			"title": "École nationale d’ingénieurs de Brest",
 			"logo": "enib",
 			"content": "Diplôme d’ingénieur en informatique",
-			"content_en": "Graduate School of Computer Engineer"
+			"content_en": "Engineering degree in computer science"
 		}
 	],
 	"employersLabel": "Expériences professionnelles",
-	"employersLabel_en": "Professional experiences",
+	"employersLabel_en": "Professional experience",
 	"employers": [
 		{
 			"companyKey": "freelance",
@@ -161,18 +161,18 @@ window.myCV = {
 				{
 					"companyKey": "bga",
 					"capacity": "Adaptation de jeux de société en ligne",
-					"capacity_en": "Adapting board games",
+					"capacity_en": "Online board game adaptations",
 					"start": "2023-10",
 					"nbDev": 1,
 					"practices": [
 						"Fidèle au jeu physique : mise en page, animations, règles front/back",
 						"Parties multijoueurs : implémentation complète sur le framework BGA",
-						"Catalogue enrichi : plus de 25 jeux publiés (Flip 7, Terraforming Mars Dice Game, Fugitif...)"
+						"Catalogue enrichi : plus de 25 jeux publiés (Flip 7, Terraforming Mars: The Dice Game, Castle of Mad King Ludwig...)"
 					],
 					"practices_en": [
-						"Layout creation and animations, checking rules",
-						"Implementating the multi-player mode with BGA framework",
-						"8 games implemented: Unrest, Trailblazers, Gnome Hollow, Finca, Bunny boom..."
+						"True to the physical game: layout, animations, front/back rules",
+						"Multiplayer games: full implementation on the BGA framework",
+						"Growing catalog: 25+ published games (Flip 7, Terraforming Mars: The Dice Game, Castle of Mad King Ludwig...)"
 					],
 					"skillsKeys": [
 						"js",
@@ -195,19 +195,18 @@ window.myCV = {
 				{
 					"companyKey": "3e",
 					"capacity": "Création d'un back-office de gestion de tournées (planning, facturation, contrats, distributions)",
-					"capacity_en": "Creating a back-office for managing performances (calendar, billing, contracts, show program)",
+					"capacity_en": "Building a tour management back-office (scheduling, billing, contracts, distributions)",
 					"start": "2021-11",
 					"nbDev": 1,
 					"practices": [
 						"Base technique solide : mise en place de l'architecture et de l'outillage",
 						"Outil taillé pour le métier : affinage du besoin, conception",
-						"Multi-appareils et multi-profils : PWA, droits par intervenant",
-						"Aucun serveur à maintenir : architecture serverless"
+						"Multi-appareils et multi-profils : PWA, droits par intervenant"
 					],
 					"practices_en": [
-						"Tweaking requirements, designing full-stack applications",
-						"PWA, offline mode, admin and external accounts/rights",
-						"Severless implementation (firestore / firebase / cloud functions)"
+						"Solid technical foundation: architecture and tooling setup",
+						"Tool tailored to the business: requirements refinement, design",
+						"Multi-device and multi-profile: PWA, per-user permissions"
 					],
 					"skillsKeys": [
 						"js",
@@ -238,16 +237,17 @@ window.myCV = {
 				{
 					"companyKey": "logick",
 					"capacity": "Création et évolution des outils de vente de billetterie",
-					"capacity_en": "Creating web application (ticketing)",
+					"capacity_en": "Building and evolving ticketing sales tools",
 					"duration": "3.5 ans",
-					"duration_en": "3 years 6 months",
+					"duration_en": "3.5 years",
 					"nbDev": 3,
 					"practices": [
 						"Socle pérenne : création de plusieurs applications web de bout en bout (vente en ligne, back-offices, caisses)",
 						"Des outils fiables dans la durée : maintenance et évolutions continues"
 					],
 					"practices_en": [
-						"Creating several web applications\n (online sales, back-office, office sale application)"
+						"Lasting foundation: several end-to-end web applications (online sales, back-offices, box office)",
+						"Reliable tools over time: continuous maintenance and improvements"
 					],
 					"skillsKeys": [
 						"js",
@@ -273,17 +273,17 @@ window.myCV = {
 				{
 					"companyKey": "iepf",
 					"capacity": "Évolution du site e-commerce et de son back-office",
-					"capacity_en": "Maintaining the e-commerce website ",
+					"capacity_en": "Evolving the e-commerce website and its back-office",
 					"duration": "4 mois",
 					"duration_en": "4 months",
 					"nbDev": 2,
 					"practices": [
-						"Offre enrichie : conception et développement de nouvelles fonctionnalités (site e-commerce et back-office)",
+						"Offre enrichie : conception et développement de nouvelles fonctionnalités",
 						"Réactivité accrue : livraison continue, résilience et gestion des incidents"
 					],
 					"practices_en": [
-						"Designing and developing new features (e-commerce website + BO)",
-						"Full-stack development with Vuejs + Nodejs (using Strapi)"
+						"Richer offering: designing and developing new features",
+						"Greater responsiveness: continuous delivery, resilience and incident management"
 					],
 					"skillsKeys": [
 						"js",
@@ -304,13 +304,14 @@ window.myCV = {
 						"es6",
 						"strapi",
 						"nuxt",
-						"vuejs"
+						"vuejs",
+						"ci-cd"
 					]
 				},
 				{
 					"companyKey": "syd",
 					"capacity": "Création d'une application d'organisation de tournées pour agents de terrain",
-					"capacity_en": "Creating a PWA for managing agent's flows",
+					"capacity_en": "Building a route planning app for field agents",
 					"duration": "5 mois",
 					"duration_en": "5 months",
 					"nbDev": 5,
@@ -320,9 +321,9 @@ window.myCV = {
 						"Code homogène et maintenable : tech-lead d'une équipe de 4 devs (choix techniques, qualité du code)"
 					],
 					"practices_en": [
-						"Creating the PWA from scratch",
-						"Designing and developing new features",
-						"Technical leader of the 4 developers team"
+						"Lasting foundation: end-to-end app creation, from architecture to development",
+						"Short iterations: new features shipped as needs arose (field feedback)",
+						"Consistent, maintainable code: tech lead of a 4-dev team (technical choices, code quality)"
 					],
 					"skillsKeys": [
 						"js",
@@ -353,7 +354,7 @@ window.myCV = {
 				{
 					"companyKey": "airliquide",
 					"capacity": "Fiabilisation et évolution de l'outil d'aide à la vente",
-					"capacity_en": "Maintaining the sales assistance's PWA",
+					"capacity_en": "Stabilizing and evolving the sales support tool",
 					"duration": "5 mois",
 					"duration_en": "5 months",
 					"nbDev": 10,
@@ -362,8 +363,8 @@ window.myCV = {
 						"Intégration rapide : montée en compétence sur une large base de code"
 					],
 					"practices_en": [
-						"Fixing bugs and implementing new feature (front and back-end)",
-						"Designing and developing new features"
+						"Structured team: code reviews, sprints, PO / QA coordination",
+						"Fast onboarding: ramp-up on a large codebase"
 					],
 					"skillsKeys": [
 						"js",
@@ -395,7 +396,7 @@ window.myCV = {
 				{
 					"companyKey": "enedis",
 					"capacity": "Création d'une application de visualisation cartographique",
-					"capacity_en": "Creating the webapp",
+					"capacity_en": "Building a map visualization application",
 					"duration": "4 mois",
 					"duration_en": "4 months",
 					"nbDev": 2,
@@ -405,9 +406,9 @@ window.myCV = {
 						"Proactivité : affinage du besoin, propositions UI/UX"
 					],
 					"practices_en": [
-						"Creating and designing the web application",
-						"Using ArcGis for visualizing maps on the browser",
-						"Tweaking requirements, proactiveness for the UI/UX"
+						"End-to-end design: application architecture and development",
+						"Efficient tool: smooth map visualization",
+						"Proactivity: requirements refinement, UI/UX proposals"
 					],
 					"skillsKeys": [
 						"js",
@@ -441,25 +442,24 @@ window.myCV = {
 			"duration": "1 an",
 			"duration_en": "1 year",
 			"capacity": "Développeur et responsable front-end JavaScript",
-			"capacity_en": "Web software engineer - head of front-end team",
+			"capacity_en": "JavaScript developer and front-end lead",
 			"missions": [
 				{
 					"companyKey": "",
 					"capacity": "Création de l'application web et du back-office",
-					"capacity_en": "Creating the webapp and back-office",
+					"capacity_en": "Building the web application and back-office",
 					"duration": "1 an",
 					"duration_en": "1 year",
 					"nbDev": 4,
 					"practices": [
 						"Base technique solide : mise en place de l'architecture et de l'outillage",
 						"Livraisons sécurisées : création et maintien des tests d'intégration",
-						"Transition sans rupture : migration progressive de l'existant"
+						"Transition fluide : migration progressive de l'existant"
 					],
 					"practices_en": [
-						"Implementating the webapp with the appropriate architecture and tools",
-						"Management of the existing architecture, migration to the new one",
-						"Creating a continuous integration platform (CI/CD)",
-						"Creating and maintaining an automated end to end test suite"
+						"Solid technical foundation: architecture and tooling setup",
+						"Safer releases: creating and maintaining integration tests",
+						"Seamless transition: gradual migration of the legacy code"
 					],
 					"skillsKeys": [
 						"js",
@@ -502,7 +502,7 @@ window.myCV = {
 			"duration": "3 ans 8 mois",
 			"duration_en": "3 years 8 months",
 			"capacity": "Développeur web front-end JavaScript",
-			"capacity_en": "Web front-end developer (JavaScript)",
+			"capacity_en": "JavaScript front-end web developer",
 			"missions": [
 				{
 					"companyKey": "arpege",
@@ -537,18 +537,17 @@ window.myCV = {
 						"angular",
 						"tests"
 					],
-					"capacity_en": "Creating a data visualization/modification cartography component",
+					"capacity_en": "Map data editing component",
 					"duration_en": "4 months",
 					"practices_en": [
-						"Getting started with cartographic tools (leaflet, geoserver/geotools, shapefile, Web Map Service)",
-						"Designing, developing and testing the component",
-						"Integrating the component into the web application, connecting the API"
+						"Quick start: ramp-up on mapping technologies",
+						"Reliable component: design, end-to-end testing and integration"
 					]
 				},
 				{
 					"companyKey": "akeneo",
 					"capacity": "Migration d'une application open-source MPA vers SPA",
-					"capacity_en": "Preparating the migration of a legacy web application to a Single Page Application",
+					"capacity_en": "Migrating an open-source application from MPA to SPA",
 					"duration": "3 mois",
 					"nbDev": 3,
 					"duration_en": "3 months",
@@ -557,8 +556,8 @@ window.myCV = {
 						"Socle : création d'API REST et de composants front-end"
 					],
 					"practices_en": [
-						"Refactoring the open-source application",
-						"Creation of REST API and front-end components with BackBoneJS"
+						"Easier migration: refactoring the existing code",
+						"Foundation: building REST APIs and front-end components"
 					],
 					"skillsKeys": [
 						"js",
@@ -582,7 +581,7 @@ window.myCV = {
 				{
 					"companyKey": "wiztivi",
 					"capacity": "Création et évolution d'interfaces pour box TV",
-					"capacity_en": "Creating and maintaining the UI of a TV box",
+					"capacity_en": "Building and evolving TV box interfaces",
 					"duration": "2.5 ans",
 					"duration_en": "2.5 years",
 					"nbDev": 5,
@@ -592,12 +591,9 @@ window.myCV = {
 						"Multi-appareils : applications natives hybrides pour mobile, tablette et PC"
 					],
 					"practices_en": [
-						"Creating and tooling the application",
-						"Designing and developing many features",
-						"Developing, testing and debugging on TV box (on-board applications)",
-						"Remote international development team",
-						"Writing unit and functional tests (karma)",
-						"Responsive development of native hybrid application (mobile/tablet/pc)"
+						"Faster releases: foundation and tooling setup",
+						"Robust applications: reusable shared components",
+						"Multi-device: hybrid native apps for mobile, tablet and PC"
 					],
 					"skillsKeys": [
 						"js",
@@ -637,12 +633,12 @@ window.myCV = {
 			"duration": "2 ans",
 			"duration_en": "2 years",
 			"capacity": "Développeur web full-stack (C#)",
-			"capacity_en": "Web software engineer (C#)",
+			"capacity_en": "Full-stack web developer (C#)",
 			"missions": [
 				{
 					"companyKey": "",
-					"capacity": "Évolution du site internet et de l'ESB d'un groupe international",
-					"capacity_en": "Maintaining the web site and ESB",
+					"capacity": "Évolution du site internet et de l'ESB",
+					"capacity_en": "Evolving the website and ESB",
 					"duration": "2 ans",
 					"duration_en": "2 years",
 					"nbDev": 6,
@@ -652,11 +648,9 @@ window.myCV = {
 						"Qualité et performances : tests et plateforme de benchmark automatisés"
 					],
 					"practices_en": [
-						"SCRUM methodology with worldwide team",
-						"Creating new features and fixing bugs",
-						"Designing and creating WebServices",
-						"Implementing an automatic platform of benchmark",
-						"Developing and fixing the web site automated tests"
+						"Scrum: collaboration with an internationally distributed team",
+						"Continuous improvements: website, web services and ESB",
+						"Quality and performance: automated tests and benchmark platform"
 					],
 					"skillsKeys": [
 						"js",
@@ -708,11 +702,11 @@ window.myCV = {
 					"keywords": [
 						"ci-cd"
 					],
-					"capacity_en": "Maintaining the website",
+					"capacity_en": "Stabilizing and evolving the website",
 					"duration_en": "7 months",
 					"practices_en": [
-						"Designing and developing main features, bug fixing",
-						"Creating an automation tools (processing in DMS, deployment...)"
+						"Major features: design, development, maintenance",
+						"Productivity gains: automation (DMS processing, deployment...)"
 					]
 				},
 				{
@@ -736,31 +730,30 @@ window.myCV = {
 					"keywords": [
 						"tests"
 					],
-					"capacity_en": "Maintaining the train office sale application",
+					"capacity_en": "Stabilizing and evolving the ticket office sales tool",
 					"practices_en": [
-						"Designing, evaluating and developing the main features",
-						"Application automation test tool's maintenance",
-						"WebServices design and creation",
-						"Mentoring new developers during their integrations"
+						"Major features: analysis, estimation, development, maintenance",
+						"Fewer regressions: improved automated tests",
+						"More autonomous team: training and mentoring developers"
 					]
 				}
 			],
-			"startDate_en": "augu. 2008",
-			"capacity_en": "Software full-stack engineer(C#)"
+			"startDate_en": "aug. 2008",
+			"capacity_en": "Full-stack web developer (C#)"
 		}
 	],
 	"personalStuff": [
 		{
 			"title": "Entre 2 Chaises",
 			"desc": "<b>Co-fondateur et responsable technique</b><br>maison d'édition <a target='_blank' href='https://e2c-jeux.fr/'>Entre 2 Chaises</a> <span class=\"aside\">(créée en 2023)</span>\n <ul><li>Édition du jeu <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a> <span class=\"date\">- 2023</span></li>\n <li>Campagne participative et édition du jeu <a target='_blank' href='https://e2c-jeux.fr/streets-of-tokyo'>Streets of Tokyo</a> <span class=\"date\">- 2024</span></li></ul>",
-			"desc_en": "<b>Co-founder and CTO</b> of the board game publisher <a target='_blank' href='https://e2c-jeux.fr/'>Entre 2 Chaises</a> <span class=\"aside\">(created in 2023)</span>\n <ul><li>Publishing the game <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a> <span class=\"date\">- 2023</span></li>\n <li>Crowd founding campaign for the game <a target='_blank' href='https://e2c-jeux.fr/streets-of-tokyo'>Streets of Tokyo</a> <span class=\"date\">- 2024</span></li></ul>",
+			"desc_en": "<b>Co-founder and CTO</b><br>board game publisher <a target='_blank' href='https://e2c-jeux.fr/'>Entre 2 Chaises</a> <span class=\"aside\">(founded in 2023)</span>\n <ul><li>Publishing the game <a target='_blank' href='https://e2c-jeux.fr/faux-raccords'>Faux Raccords</a> <span class=\"date\">- 2023</span></li>\n <li>Crowdfunding campaign and publishing of the game <a target='_blank' href='https://e2c-jeux.fr/streets-of-tokyo'>Streets of Tokyo</a> <span class=\"date\">- 2024</span></li></ul>",
 			"lines": [
 				{
 					"date": "2023",
 					"link": {
 						"url": "https://e2c-jeux.fr",
 						"label": "Site web vitrine",
-						"label_en": "Landing page"
+						"label_en": "Showcase website"
 					},
 					"skills": [
 						"js",
@@ -774,10 +767,11 @@ window.myCV = {
 					"date": "2023",
 					"link": {
 						"url": "https://faux-raccords.e2c-jeux.fr",
-						"label": "Application 'Faux Raccords'"
+						"label": "Application 'Faux Raccords'",
+						"label_en": "'Faux Raccords' app"
 					},
 					"label": "Création de l'application web permettant de générer la vidéo bonus d'une partie",
-					"label_en": "Creating the application that is generating a video bonus after playing the game + cards recognition (using tensorflow)",
+					"label_en": "Web application generating a bonus video of a game session",
 					"skills": [
 						"js",
 						"html5",
@@ -791,10 +785,11 @@ window.myCV = {
 					"date": "2024",
 					"link": {
 						"url": "https://sot.e2c-jeux.fr/",
-						"label": "Application 'Streets of Tokyo'"
+						"label": "Application 'Streets of Tokyo'",
+						"label_en": "'Streets of Tokyo' app"
 					},
 					"label": "Création de l'application web permettant de gérer le chronomètre interactif et le mode campagne.",
-					"label_en": "Creating the web application managing the interactive time and the campaign mode.",
+					"label_en": "Web application managing the interactive timer and the campaign mode.",
 					"skills": [
 						"js",
 						"html5",
@@ -830,7 +825,22 @@ window.myCV = {
 						"url": "https://alban44.github.io",
 						"label": "Mon CV en ligne",
 						"url_en": "https://alban44.github.io?en",
-						"label_en": "My resume online"
+						"label_en": "My online resume"
+					},
+					"skills": [
+						"vuejs",
+						"js",
+						"html5",
+						"css3",
+						"git"
+					]
+				},
+				{
+					"date": "2025",
+					"link": {
+						"url": "https://lesludopathesnantais.fr/",
+						"label": "Page d'accueil",
+						"label_en": "Home page"
 					},
 					"skills": [
 						"vuejs",
@@ -847,7 +857,7 @@ window.myCV = {
 						"label": "Math Trade"
 					},
 					"label": "Site web d’échange circulaire de jeux de plateau (front-end React et back-end Firebase)",
-					"label_en": "Creating a boardgame trade web site (React/Redux + firebase as back-end)",
+					"label_en": "Circular board game trading website (React front-end and Firebase back-end)",
 					"skills": [
 						"react",
 						"js",
@@ -864,16 +874,16 @@ window.myCV = {
 				"firebase",
 				"materialdesign"
 			],
-			"title_en": "Web sites"
+			"title_en": "Websites"
 		}
 	],
 	"miscLabel": "Centres d'intérêt",
-	"miscLabel_en": "Hobbies",
+	"miscLabel_en": "Interests",
 	"miscs": [
 		{
 			"label": "Anglais",
 			"content": "professionnel (équipes internationales)",
-			"label_en": "English : ",
+			"label_en": "English",
 			"content_en": "professional (international teams)"
 		},
 		{
@@ -884,7 +894,7 @@ window.myCV = {
 		{
 			"label": "Loisirs",
 			"content": "jeux de plateau, voyages, jardinage",
-			"label_en": "Hobbies : ",
+			"label_en": "Hobbies",
 			"content_en": "board games, travelling, gardening"
 		},
 		{
@@ -1301,7 +1311,7 @@ window.myCV = {
 			"name": "vuejs",
 			"mark": "75",
 			"xp": "5 ans",
-			"xp_en": "4 years"
+			"xp_en": "5 years"
 		},
 		{
 			"name": "dojo",
